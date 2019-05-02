@@ -201,7 +201,7 @@ class ReponseUniteLegale extends Reponse
     /**
      * Gets unite_legale
      *
-     * @return Sirene\\Client\Model\UniteLegale
+     * @return \Sirene\Client\Model\UniteLegale
      */
     public function getUniteLegale()
     {

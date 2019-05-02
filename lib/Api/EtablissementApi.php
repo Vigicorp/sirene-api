@@ -97,9 +97,9 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return Sirene\\Client\Model\ReponseEtablissement
+     * @return \Sirene\Client\Model\ReponseEtablissement
      */
     public function findBySiret($siret, $date = null, $champs = null, $masquer_valeurs_nulles = null)
     {
@@ -117,7 +117,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \Sirene\Client\Model\ReponseEtablissement, HTTP status code, HTTP response headers (array of strings)
      */
@@ -386,9 +386,9 @@ class EtablissementApi
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return Sirene\\Client\Model\ReponseLienSuccession
+     * @return \Sirene\Client\Model\ReponseLienSuccession
      */
     public function findLiensSuccessionByQ($q = null, $tri = null, $nombre = null, $debut = null)
     {
@@ -406,7 +406,7 @@ class EtablissementApi
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \Sirene\Client\Model\ReponseLienSuccession, HTTP status code, HTTP response headers (array of strings)
      */
@@ -684,9 +684,9 @@ class EtablissementApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return Sirene\\Client\Model\ReponseEtablissements
+     * @return \Sirene\Client\Model\ReponseEtablissements
      */
     public function findSiretByQ($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
@@ -709,7 +709,7 @@ class EtablissementApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \Sirene\Client\Model\ReponseEtablissements, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1022,9 +1022,9 @@ class EtablissementApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return Sirene\\Client\Model\ReponseEtablissements
+     * @return \Sirene\Client\Model\ReponseEtablissements
      */
     public function findSiretByQPost($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
@@ -1047,7 +1047,7 @@ class EtablissementApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \Sirene\Client\Model\ReponseEtablissements, HTTP status code, HTTP response headers (array of strings)
      */

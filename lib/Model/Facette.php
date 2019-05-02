@@ -424,7 +424,7 @@ class Facette implements ModelInterface, ArrayAccess
     /**
      * Gets comptages
      *
-     * @return Sirene\\Client\Model\Comptage[]
+     * @return \Sirene\Client\Model\Comptage[]
      */
     public function getComptages()
     {
@@ -448,7 +448,7 @@ class Facette implements ModelInterface, ArrayAccess
     /**
      * Gets facettes
      *
-     * @return Sirene\\Client\Model\Facette[]
+     * @return \Sirene\Client\Model\Facette[]
      */
     public function getFacettes()
     {

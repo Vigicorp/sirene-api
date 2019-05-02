@@ -213,7 +213,7 @@ class ReponseLienSuccession implements ModelInterface, ArrayAccess
     /**
      * Gets header
      *
-     * @return Sirene\\Client\Model\Header
+     * @return \Sirene\Client\Model\Header
      */
     public function getHeader()
     {
@@ -237,7 +237,7 @@ class ReponseLienSuccession implements ModelInterface, ArrayAccess
     /**
      * Gets liens_succession
      *
-     * @return Sirene\\Client\Model\LienSuccession[]
+     * @return \Sirene\Client\Model\LienSuccession[]
      */
     public function getLiensSuccession()
     {

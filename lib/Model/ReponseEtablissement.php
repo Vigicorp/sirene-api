@@ -201,7 +201,7 @@ class ReponseEtablissement extends Reponse
     /**
      * Gets etablissement
      *
-     * @return Sirene\\Client\Model\Etablissement
+     * @return \Sirene\Client\Model\Etablissement
      */
     public function getEtablissement()
     {

@@ -586,7 +586,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets unite_legale
      *
-     * @return Sirene\\Client\Model\UniteLegaleEtablissement
+     * @return \Sirene\Client\Model\UniteLegaleEtablissement
      */
     public function getUniteLegale()
     {
@@ -610,7 +610,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets adresse_etablissement
      *
-     * @return Sirene\\Client\Model\Adresse
+     * @return \Sirene\Client\Model\Adresse
      */
     public function getAdresseEtablissement()
     {
@@ -634,7 +634,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets adresse2_etablissement
      *
-     * @return Sirene\\Client\Model\AdresseComplementaire
+     * @return \Sirene\Client\Model\AdresseComplementaire
      */
     public function getAdresse2Etablissement()
     {
@@ -658,7 +658,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets periodes_etablissement
      *
-     * @return Sirene\\Client\Model\PeriodeEtablissement[]
+     * @return \Sirene\Client\Model\PeriodeEtablissement[]
      */
     public function getPeriodesEtablissement()
     {

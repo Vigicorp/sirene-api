@@ -207,7 +207,7 @@ class Reponse implements ModelInterface, ArrayAccess
     /**
      * Gets header
      *
-     * @return Sirene\\Client\Model\Header
+     * @return \Sirene\Client\Model\Header
      */
     public function getHeader()
     {

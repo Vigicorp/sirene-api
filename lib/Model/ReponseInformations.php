@@ -330,7 +330,7 @@ class ReponseInformations implements ModelInterface, ArrayAccess
     /**
      * Gets dates_dernieres_mises_a_jour_des_donnees
      *
-     * @return Sirene\\Client\Model\DatesMiseAJourDonnees[]
+     * @return \Sirene\Client\Model\DatesMiseAJourDonnees[]
      */
     public function getDatesDernieresMisesAJourDesDonnees()
     {

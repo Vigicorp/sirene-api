@@ -93,9 +93,9 @@ class InformationsApi
      * État du service, dates de mise à jour et numéro de version
      *
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return Sirene\\Client\Model\ReponseInformations
+     * @return \Sirene\Client\Model\ReponseInformations
      */
     public function informations()
     {
@@ -109,7 +109,7 @@ class InformationsApi
      * État du service, dates de mise à jour et numéro de version
      *
      *
-     * @throws Sirene\\Client\ApiException on non-2xx response
+     * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \Sirene\Client\Model\ReponseInformations, HTTP status code, HTTP response headers (array of strings)
      */

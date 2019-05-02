@@ -268,7 +268,7 @@ class Comptage implements ModelInterface, ArrayAccess
     /**
      * Gets facettes
      *
-     * @return Sirene\\Client\Model\Facette[]
+     * @return \Sirene\Client\Model\Facette[]
      */
     public function getFacettes()
     {

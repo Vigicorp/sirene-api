@@ -878,7 +878,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
     /**
      * Gets periodes_unite_legale
      *
-     * @return Sirene\\Client\Model\PeriodeUniteLegale[]
+     * @return \Sirene\Client\Model\PeriodeUniteLegale[]
      */
     public function getPeriodesUniteLegale()
     {

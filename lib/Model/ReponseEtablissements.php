@@ -207,7 +207,7 @@ class ReponseEtablissements extends Reponse
     /**
      * Gets etablissements
      *
-     * @return Sirene\\Client\Model\Etablissement[]
+     * @return \Sirene\Client\Model\Etablissement[]
      */
     public function getEtablissements()
     {
@@ -231,7 +231,7 @@ class ReponseEtablissements extends Reponse
     /**
      * Gets facettes
      *
-     * @return Sirene\\Client\Model\Facette[]
+     * @return \Sirene\Client\Model\Facette[]
      */
     public function getFacettes()
     {

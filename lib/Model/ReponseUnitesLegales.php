@@ -207,7 +207,7 @@ class ReponseUnitesLegales extends Reponse
     /**
      * Gets unites_legales
      *
-     * @return Sirene\\Client\Model\UniteLegale[]
+     * @return \Sirene\Client\Model\UniteLegale[]
      */
     public function getUnitesLegales()
     {
@@ -231,7 +231,7 @@ class ReponseUnitesLegales extends Reponse
     /**
      * Gets facettes
      *
-     * @return Sirene\\Client\Model\Facette[]
+     * @return \Sirene\Client\Model\Facette[]
      */
     public function getFacettes()
     {
