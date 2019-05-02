@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Sirene\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -37,7 +37,7 @@ use \Sirene\Client\ObjectSerializer;
  *
  * @category Class
  * @description Objet représentant un comptage particulier à l&#39;intérieur d&#39;une facette
- * @package  Swagger\Client
+ * @package  Sirene\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

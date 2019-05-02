@@ -1,4 +1,4 @@
-# Swagger\Client\EtablissementApi
+# Sirene\Client\EtablissementApi
 
 All URIs are relative to *https://api.insee.fr/entreprises/sirene/V3*
 

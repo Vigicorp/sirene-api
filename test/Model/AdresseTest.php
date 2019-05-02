@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Sirene\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -34,7 +34,7 @@ namespace Sirene\Client;
  *
  * @category    Class
  * @description Ensemble des variables d&#39;adresse d&#39;un établissement
- * @package     Swagger\Client
+ * @package     Sirene\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

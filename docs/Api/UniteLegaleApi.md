@@ -1,4 +1,4 @@
-# Swagger\Client\UniteLegaleApi
+# Sirene\Client\UniteLegaleApi
 
 All URIs are relative to *https://api.insee.fr/entreprises/sirene/V3*
 
