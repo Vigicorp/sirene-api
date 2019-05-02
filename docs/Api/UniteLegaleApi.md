@@ -21,7 +21,7 @@ Recherche d'une unité légale par son numéro Siren (9 chiffres)
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UniteLegaleApi(
+$apiInstance = new Sirene\Client\Api\UniteLegaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -76,7 +76,7 @@ Recherche multicritère d'unités légales
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UniteLegaleApi(
+$apiInstance = new Sirene\Client\Api\UniteLegaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -141,7 +141,7 @@ Recherche multicritère d'unités légales
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UniteLegaleApi(
+$apiInstance = new Sirene\Client\Api\UniteLegaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
