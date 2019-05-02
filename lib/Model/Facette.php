@@ -30,7 +30,7 @@
 namespace Sirene\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * Facette Class Doc Comment
@@ -65,8 +65,8 @@ class Facette implements ModelInterface, ArrayAccess
         'avant' => 'int',
         'apres' => 'int',
         'entre' => 'int',
-        'comptages' => '\Swagger\Client\Model\Comptage[]',
-        'facettes' => '\Swagger\Client\Model\Facette[]'
+        'comptages' => '\Sirene\Client\Model\Comptage[]',
+        'facettes' => '\Sirene\Client\Model\Facette[]'
     ];
 
     /**
@@ -424,7 +424,7 @@ class Facette implements ModelInterface, ArrayAccess
     /**
      * Gets comptages
      *
-     * @return \Swagger\Client\Model\Comptage[]
+     * @return Sirene\\Client\Model\Comptage[]
      */
     public function getComptages()
     {
@@ -434,7 +434,7 @@ class Facette implements ModelInterface, ArrayAccess
     /**
      * Sets comptages
      *
-     * @param \Swagger\Client\Model\Comptage[] $comptages comptages
+     * @param \Sirene\Client\Model\Comptage[] $comptages comptages
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class Facette implements ModelInterface, ArrayAccess
     /**
      * Gets facettes
      *
-     * @return \Swagger\Client\Model\Facette[]
+     * @return Sirene\\Client\Model\Facette[]
      */
     public function getFacettes()
     {
@@ -458,7 +458,7 @@ class Facette implements ModelInterface, ArrayAccess
     /**
      * Sets facettes
      *
-     * @param \Swagger\Client\Model\Facette[] $facettes facettes
+     * @param \Sirene\Client\Model\Facette[] $facettes facettes
      *
      * @return $this
      */

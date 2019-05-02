@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **findBySiren**
-> \Swagger\Client\Model\ReponseUniteLegale findBySiren($siren, $date, $champs, $masquer_valeurs_nulles)
+> \Sirene\Client\Model\ReponseUniteLegale findBySiren($siren, $date, $champs, $masquer_valeurs_nulles)
 
 Recherche d'une unité légale par son numéro Siren (9 chiffres)
 
@@ -51,7 +51,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseUniteLegale**](../Model/ReponseUniteLegale.md)
+[**\Sirene\Client\Model\ReponseUniteLegale**](../Model/ReponseUniteLegale.md)
 
 ### Authorization
 
@@ -65,7 +65,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findSirenByQ**
-> \Swagger\Client\Model\ReponseUnitesLegales findSirenByQ($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
+> \Sirene\Client\Model\ReponseUnitesLegales findSirenByQ($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
 
 Recherche multicritère d'unités légales
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseUnitesLegales**](../Model/ReponseUnitesLegales.md)
+[**\Sirene\Client\Model\ReponseUnitesLegales**](../Model/ReponseUnitesLegales.md)
 
 ### Authorization
 
@@ -130,7 +130,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findSirenByQPost**
-> \Swagger\Client\Model\ReponseUnitesLegales findSirenByQPost($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
+> \Sirene\Client\Model\ReponseUnitesLegales findSirenByQPost($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
 
 Recherche multicritère d'unités légales
 
@@ -181,7 +181,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseUnitesLegales**](../Model/ReponseUnitesLegales.md)
+[**\Sirene\Client\Model\ReponseUnitesLegales**](../Model/ReponseUnitesLegales.md)
 
 ### Authorization
 

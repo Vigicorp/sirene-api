@@ -30,7 +30,7 @@
 namespace Sirene\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * Comptage Class Doc Comment
@@ -60,7 +60,7 @@ class Comptage implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'valeur' => 'object',
         'nombre' => 'int',
-        'facettes' => '\Swagger\Client\Model\Facette[]'
+        'facettes' => '\Sirene\Client\Model\Facette[]'
     ];
 
     /**
@@ -268,7 +268,7 @@ class Comptage implements ModelInterface, ArrayAccess
     /**
      * Gets facettes
      *
-     * @return \Swagger\Client\Model\Facette[]
+     * @return Sirene\\Client\Model\Facette[]
      */
     public function getFacettes()
     {
@@ -278,7 +278,7 @@ class Comptage implements ModelInterface, ArrayAccess
     /**
      * Sets facettes
      *
-     * @param \Swagger\Client\Model\Facette[] $facettes facettes
+     * @param \Sirene\Client\Model\Facette[] $facettes facettes
      *
      * @return $this
      */

@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **findBySiret**
-> \Swagger\Client\Model\ReponseEtablissement findBySiret($siret, $date, $champs, $masquer_valeurs_nulles)
+> \Sirene\Client\Model\ReponseEtablissement findBySiret($siret, $date, $champs, $masquer_valeurs_nulles)
 
 Recherche d'un établissement par son numéro Siret
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseEtablissement**](../Model/ReponseEtablissement.md)
+[**\Sirene\Client\Model\ReponseEtablissement**](../Model/ReponseEtablissement.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findLiensSuccessionByQ**
-> \Swagger\Client\Model\ReponseLienSuccession findLiensSuccessionByQ($q, $tri, $nombre, $debut)
+> \Sirene\Client\Model\ReponseLienSuccession findLiensSuccessionByQ($q, $tri, $nombre, $debut)
 
 Recherche multicritère sur les liens de succession
 
@@ -107,7 +107,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseLienSuccession**](../Model/ReponseLienSuccession.md)
+[**\Sirene\Client\Model\ReponseLienSuccession**](../Model/ReponseLienSuccession.md)
 
 ### Authorization
 
@@ -121,7 +121,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findSiretByQ**
-> \Swagger\Client\Model\ReponseEtablissements findSiretByQ($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
+> \Sirene\Client\Model\ReponseEtablissements findSiretByQ($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
 
 Recherche multicritère d'établissements
 
@@ -172,7 +172,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
+[**\Sirene\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
 
 ### Authorization
 
@@ -186,7 +186,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findSiretByQPost**
-> \Swagger\Client\Model\ReponseEtablissements findSiretByQPost($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
+> \Sirene\Client\Model\ReponseEtablissements findSiretByQPost($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
 
 Recherche multicritère d'établissements
 
@@ -237,7 +237,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
+[**\Sirene\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
 
 ### Authorization
 

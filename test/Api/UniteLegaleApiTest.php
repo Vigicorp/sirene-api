@@ -28,9 +28,9 @@
 
 namespace Sirene\Client;
 
-use \Swagger\Client\Configuration;
-use \Swagger\Client\ApiException;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\Configuration;
+use \Sirene\Client\ApiException;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * UniteLegaleApiTest Class Doc Comment

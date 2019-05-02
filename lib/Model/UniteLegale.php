@@ -30,7 +30,7 @@
 namespace Sirene\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * UniteLegale Class Doc Comment
@@ -78,7 +78,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
         'nombre_periodes_unite_legale' => 'int',
         'categorie_entreprise' => 'string',
         'annee_categorie_entreprise' => 'string',
-        'periodes_unite_legale' => '\Swagger\Client\Model\PeriodeUniteLegale[]'
+        'periodes_unite_legale' => '\Sirene\Client\Model\PeriodeUniteLegale[]'
     ];
 
     /**
@@ -878,7 +878,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
     /**
      * Gets periodes_unite_legale
      *
-     * @return \Swagger\Client\Model\PeriodeUniteLegale[]
+     * @return Sirene\\Client\Model\PeriodeUniteLegale[]
      */
     public function getPeriodesUniteLegale()
     {
@@ -888,7 +888,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
     /**
      * Sets periodes_unite_legale
      *
-     * @param \Swagger\Client\Model\PeriodeUniteLegale[] $periodes_unite_legale periodes_unite_legale
+     * @param \Sirene\Client\Model\PeriodeUniteLegale[] $periodes_unite_legale periodes_unite_legale
      *
      * @return $this
      */

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **informations**
-> \Swagger\Client\Model\ReponseInformations informations()
+> \Sirene\Client\Model\ReponseInformations informations()
 
 État du service, dates de mise à jour et numéro de version
 
@@ -39,7 +39,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseInformations**](../Model/ReponseInformations.md)
+[**\Sirene\Client\Model\ReponseInformations**](../Model/ReponseInformations.md)
 
 ### Authorization
 

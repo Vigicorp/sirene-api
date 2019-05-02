@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 **nombre_periodes_unite_legale** | **int** | Nombre de périodes dans la vie de l&#39;unité légale | [optional] 
 **categorie_entreprise** | **string** | Catégorie à laquelle appartient l&#39;entreprise : Petite ou moyenne entreprise, Entreprise de taille intermédiaire, Grande entreprise | [optional] 
 **annee_categorie_entreprise** | **string** | Année de validité de la catégorie d&#39;entreprise | [optional] 
-**periodes_unite_legale** | [**\Swagger\Client\Model\PeriodeUniteLegale[]**](PeriodeUniteLegale.md) |  | [optional] 
+**periodes_unite_legale** | [**\Sirene\Client\Model\PeriodeUniteLegale[]**](PeriodeUniteLegale.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

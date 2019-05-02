@@ -28,7 +28,7 @@
  */
 
 namespace Sirene\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * ReponseUnitesLegales Class Doc Comment
@@ -55,8 +55,8 @@ class ReponseUnitesLegales extends Reponse
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'unites_legales' => '\Swagger\Client\Model\UniteLegale[]',
-        'facettes' => '\Swagger\Client\Model\Facette[]'
+        'unites_legales' => '\Sirene\Client\Model\UniteLegale[]',
+        'facettes' => '\Sirene\Client\Model\Facette[]'
     ];
 
     /**
@@ -207,7 +207,7 @@ class ReponseUnitesLegales extends Reponse
     /**
      * Gets unites_legales
      *
-     * @return \Swagger\Client\Model\UniteLegale[]
+     * @return Sirene\\Client\Model\UniteLegale[]
      */
     public function getUnitesLegales()
     {
@@ -217,7 +217,7 @@ class ReponseUnitesLegales extends Reponse
     /**
      * Sets unites_legales
      *
-     * @param \Swagger\Client\Model\UniteLegale[] $unites_legales unites_legales
+     * @param \Sirene\Client\Model\UniteLegale[] $unites_legales unites_legales
      *
      * @return $this
      */
@@ -231,7 +231,7 @@ class ReponseUnitesLegales extends Reponse
     /**
      * Gets facettes
      *
-     * @return \Swagger\Client\Model\Facette[]
+     * @return Sirene\\Client\Model\Facette[]
      */
     public function getFacettes()
     {
@@ -241,7 +241,7 @@ class ReponseUnitesLegales extends Reponse
     /**
      * Sets facettes
      *
-     * @param \Swagger\Client\Model\Facette[] $facettes facettes
+     * @param \Sirene\Client\Model\Facette[] $facettes facettes
      *
      * @return $this
      */

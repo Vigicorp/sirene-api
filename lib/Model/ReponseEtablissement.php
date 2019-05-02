@@ -28,7 +28,7 @@
  */
 
 namespace Sirene\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * ReponseEtablissement Class Doc Comment
@@ -55,7 +55,7 @@ class ReponseEtablissement extends Reponse
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'etablissement' => '\Swagger\Client\Model\Etablissement'
+        'etablissement' => '\Sirene\Client\Model\Etablissement'
     ];
 
     /**
@@ -201,7 +201,7 @@ class ReponseEtablissement extends Reponse
     /**
      * Gets etablissement
      *
-     * @return \Swagger\Client\Model\Etablissement
+     * @return Sirene\\Client\Model\Etablissement
      */
     public function getEtablissement()
     {
@@ -211,7 +211,7 @@ class ReponseEtablissement extends Reponse
     /**
      * Sets etablissement
      *
-     * @param \Swagger\Client\Model\Etablissement $etablissement etablissement
+     * @param \Sirene\Client\Model\Etablissement $etablissement etablissement
      *
      * @return $this
      */

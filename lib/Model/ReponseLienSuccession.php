@@ -30,7 +30,7 @@
 namespace Sirene\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * ReponseLienSuccession Class Doc Comment
@@ -57,8 +57,8 @@ class ReponseLienSuccession implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'header' => '\Swagger\Client\Model\Header',
-        'liens_succession' => '\Swagger\Client\Model\LienSuccession[]'
+        'header' => '\Sirene\Client\Model\Header',
+        'liens_succession' => '\Sirene\Client\Model\LienSuccession[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class ReponseLienSuccession implements ModelInterface, ArrayAccess
     /**
      * Gets header
      *
-     * @return \Swagger\Client\Model\Header
+     * @return Sirene\\Client\Model\Header
      */
     public function getHeader()
     {
@@ -223,7 +223,7 @@ class ReponseLienSuccession implements ModelInterface, ArrayAccess
     /**
      * Sets header
      *
-     * @param \Swagger\Client\Model\Header $header header
+     * @param \Sirene\Client\Model\Header $header header
      *
      * @return $this
      */
@@ -237,7 +237,7 @@ class ReponseLienSuccession implements ModelInterface, ArrayAccess
     /**
      * Gets liens_succession
      *
-     * @return \Swagger\Client\Model\LienSuccession[]
+     * @return Sirene\\Client\Model\LienSuccession[]
      */
     public function getLiensSuccession()
     {
@@ -247,7 +247,7 @@ class ReponseLienSuccession implements ModelInterface, ArrayAccess
     /**
      * Sets liens_succession
      *
-     * @param \Swagger\Client\Model\LienSuccession[] $liens_succession liens_succession
+     * @param \Sirene\Client\Model\LienSuccession[] $liens_succession liens_succession
      *
      * @return $this
      */

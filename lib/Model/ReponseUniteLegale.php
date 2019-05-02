@@ -28,7 +28,7 @@
  */
 
 namespace Sirene\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * ReponseUniteLegale Class Doc Comment
@@ -55,7 +55,7 @@ class ReponseUniteLegale extends Reponse
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'unite_legale' => '\Swagger\Client\Model\UniteLegale'
+        'unite_legale' => '\Sirene\Client\Model\UniteLegale'
     ];
 
     /**
@@ -201,7 +201,7 @@ class ReponseUniteLegale extends Reponse
     /**
      * Gets unite_legale
      *
-     * @return \Swagger\Client\Model\UniteLegale
+     * @return Sirene\\Client\Model\UniteLegale
      */
     public function getUniteLegale()
     {
@@ -211,7 +211,7 @@ class ReponseUniteLegale extends Reponse
     /**
      * Sets unite_legale
      *
-     * @param \Swagger\Client\Model\UniteLegale $unite_legale unite_legale
+     * @param \Sirene\Client\Model\UniteLegale $unite_legale unite_legale
      *
      * @return $this
      */

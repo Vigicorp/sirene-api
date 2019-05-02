@@ -97,9 +97,9 @@ class UniteLegaleApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ReponseUniteLegale
+     * @return Sirene\\Client\Model\ReponseUniteLegale
      */
     public function findBySiren($siren, $date = null, $champs = null, $masquer_valeurs_nulles = null)
     {
@@ -117,13 +117,13 @@ class UniteLegaleApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ReponseUniteLegale, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Sirene\Client\Model\ReponseUniteLegale, HTTP status code, HTTP response headers (array of strings)
      */
     public function findBySirenWithHttpInfo($siren, $date = null, $champs = null, $masquer_valeurs_nulles = null)
     {
-        $returnType = '\Swagger\Client\Model\ReponseUniteLegale';
+        $returnType = '\Sirene\Client\Model\ReponseUniteLegale';
         $request = $this->findBySirenRequest($siren, $date, $champs, $masquer_valeurs_nulles);
 
         try {
@@ -175,7 +175,7 @@ class UniteLegaleApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ReponseUniteLegale',
+                        '\Sirene\Client\Model\ReponseUniteLegale',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -223,7 +223,7 @@ class UniteLegaleApi
      */
     public function findBySirenAsyncWithHttpInfo($siren, $date = null, $champs = null, $masquer_valeurs_nulles = null)
     {
-        $returnType = '\Swagger\Client\Model\ReponseUniteLegale';
+        $returnType = '\Sirene\Client\Model\ReponseUniteLegale';
         $request = $this->findBySirenRequest($siren, $date, $champs, $masquer_valeurs_nulles);
 
         return $this->client
@@ -391,9 +391,9 @@ class UniteLegaleApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ReponseUnitesLegales
+     * @return Sirene\\Client\Model\ReponseUnitesLegales
      */
     public function findSirenByQ($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
@@ -416,13 +416,13 @@ class UniteLegaleApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ReponseUnitesLegales, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Sirene\Client\Model\ReponseUnitesLegales, HTTP status code, HTTP response headers (array of strings)
      */
     public function findSirenByQWithHttpInfo($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        $returnType = '\Swagger\Client\Model\ReponseUnitesLegales';
+        $returnType = '\Sirene\Client\Model\ReponseUnitesLegales';
         $request = $this->findSirenByQRequest($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur);
 
         try {
@@ -474,7 +474,7 @@ class UniteLegaleApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ReponseUnitesLegales',
+                        '\Sirene\Client\Model\ReponseUnitesLegales',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -532,7 +532,7 @@ class UniteLegaleApi
      */
     public function findSirenByQAsyncWithHttpInfo($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        $returnType = '\Swagger\Client\Model\ReponseUnitesLegales';
+        $returnType = '\Sirene\Client\Model\ReponseUnitesLegales';
         $request = $this->findSirenByQRequest($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur);
 
         return $this->client
@@ -729,9 +729,9 @@ class UniteLegaleApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ReponseUnitesLegales
+     * @return Sirene\\Client\Model\ReponseUnitesLegales
      */
     public function findSirenByQPost($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
@@ -754,13 +754,13 @@ class UniteLegaleApi
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ReponseUnitesLegales, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Sirene\Client\Model\ReponseUnitesLegales, HTTP status code, HTTP response headers (array of strings)
      */
     public function findSirenByQPostWithHttpInfo($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        $returnType = '\Swagger\Client\Model\ReponseUnitesLegales';
+        $returnType = '\Sirene\Client\Model\ReponseUnitesLegales';
         $request = $this->findSirenByQPostRequest($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur);
 
         try {
@@ -812,7 +812,7 @@ class UniteLegaleApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ReponseUnitesLegales',
+                        '\Sirene\Client\Model\ReponseUnitesLegales',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -870,7 +870,7 @@ class UniteLegaleApi
      */
     public function findSirenByQPostAsyncWithHttpInfo($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        $returnType = '\Swagger\Client\Model\ReponseUnitesLegales';
+        $returnType = '\Sirene\Client\Model\ReponseUnitesLegales';
         $request = $this->findSirenByQPostRequest($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur);
 
         return $this->client

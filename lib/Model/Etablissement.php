@@ -30,7 +30,7 @@
 namespace Sirene\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * Etablissement Class Doc Comment
@@ -70,10 +70,10 @@ class Etablissement implements ModelInterface, ArrayAccess
         'date_dernier_traitement_etablissement' => 'string',
         'etablissement_siege' => 'bool',
         'nombre_periodes_etablissement' => 'int',
-        'unite_legale' => '\Swagger\Client\Model\UniteLegaleEtablissement',
-        'adresse_etablissement' => '\Swagger\Client\Model\Adresse',
-        'adresse2_etablissement' => '\Swagger\Client\Model\AdresseComplementaire',
-        'periodes_etablissement' => '\Swagger\Client\Model\PeriodeEtablissement[]'
+        'unite_legale' => '\Sirene\Client\Model\UniteLegaleEtablissement',
+        'adresse_etablissement' => '\Sirene\Client\Model\Adresse',
+        'adresse2_etablissement' => '\Sirene\Client\Model\AdresseComplementaire',
+        'periodes_etablissement' => '\Sirene\Client\Model\PeriodeEtablissement[]'
     ];
 
     /**
@@ -586,7 +586,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets unite_legale
      *
-     * @return \Swagger\Client\Model\UniteLegaleEtablissement
+     * @return Sirene\\Client\Model\UniteLegaleEtablissement
      */
     public function getUniteLegale()
     {
@@ -596,7 +596,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Sets unite_legale
      *
-     * @param \Swagger\Client\Model\UniteLegaleEtablissement $unite_legale unite_legale
+     * @param \Sirene\Client\Model\UniteLegaleEtablissement $unite_legale unite_legale
      *
      * @return $this
      */
@@ -610,7 +610,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets adresse_etablissement
      *
-     * @return \Swagger\Client\Model\Adresse
+     * @return Sirene\\Client\Model\Adresse
      */
     public function getAdresseEtablissement()
     {
@@ -620,7 +620,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Sets adresse_etablissement
      *
-     * @param \Swagger\Client\Model\Adresse $adresse_etablissement adresse_etablissement
+     * @param \Sirene\Client\Model\Adresse $adresse_etablissement adresse_etablissement
      *
      * @return $this
      */
@@ -634,7 +634,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets adresse2_etablissement
      *
-     * @return \Swagger\Client\Model\AdresseComplementaire
+     * @return Sirene\\Client\Model\AdresseComplementaire
      */
     public function getAdresse2Etablissement()
     {
@@ -644,7 +644,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Sets adresse2_etablissement
      *
-     * @param \Swagger\Client\Model\AdresseComplementaire $adresse2_etablissement adresse2_etablissement
+     * @param \Sirene\Client\Model\AdresseComplementaire $adresse2_etablissement adresse2_etablissement
      *
      * @return $this
      */
@@ -658,7 +658,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Gets periodes_etablissement
      *
-     * @return \Swagger\Client\Model\PeriodeEtablissement[]
+     * @return Sirene\\Client\Model\PeriodeEtablissement[]
      */
     public function getPeriodesEtablissement()
     {
@@ -668,7 +668,7 @@ class Etablissement implements ModelInterface, ArrayAccess
     /**
      * Sets periodes_etablissement
      *
-     * @param \Swagger\Client\Model\PeriodeEtablissement[] $periodes_etablissement periodes_etablissement
+     * @param \Sirene\Client\Model\PeriodeEtablissement[] $periodes_etablissement periodes_etablissement
      *
      * @return $this
      */

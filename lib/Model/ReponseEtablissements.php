@@ -28,7 +28,7 @@
  */
 
 namespace Sirene\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * ReponseEtablissements Class Doc Comment
@@ -55,8 +55,8 @@ class ReponseEtablissements extends Reponse
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'etablissements' => '\Swagger\Client\Model\Etablissement[]',
-        'facettes' => '\Swagger\Client\Model\Facette[]'
+        'etablissements' => '\Sirene\Client\Model\Etablissement[]',
+        'facettes' => '\Sirene\Client\Model\Facette[]'
     ];
 
     /**
@@ -207,7 +207,7 @@ class ReponseEtablissements extends Reponse
     /**
      * Gets etablissements
      *
-     * @return \Swagger\Client\Model\Etablissement[]
+     * @return Sirene\\Client\Model\Etablissement[]
      */
     public function getEtablissements()
     {
@@ -217,7 +217,7 @@ class ReponseEtablissements extends Reponse
     /**
      * Sets etablissements
      *
-     * @param \Swagger\Client\Model\Etablissement[] $etablissements etablissements
+     * @param \Sirene\Client\Model\Etablissement[] $etablissements etablissements
      *
      * @return $this
      */
@@ -231,7 +231,7 @@ class ReponseEtablissements extends Reponse
     /**
      * Gets facettes
      *
-     * @return \Swagger\Client\Model\Facette[]
+     * @return Sirene\\Client\Model\Facette[]
      */
     public function getFacettes()
     {
@@ -241,7 +241,7 @@ class ReponseEtablissements extends Reponse
     /**
      * Sets facettes
      *
-     * @param \Swagger\Client\Model\Facette[] $facettes facettes
+     * @param \Sirene\Client\Model\Facette[] $facettes facettes
      *
      * @return $this
      */

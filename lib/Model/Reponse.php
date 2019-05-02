@@ -30,7 +30,7 @@
 namespace Sirene\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * Reponse Class Doc Comment
@@ -57,7 +57,7 @@ class Reponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'header' => '\Swagger\Client\Model\Header'
+        'header' => '\Sirene\Client\Model\Header'
     ];
 
     /**
@@ -207,7 +207,7 @@ class Reponse implements ModelInterface, ArrayAccess
     /**
      * Gets header
      *
-     * @return \Swagger\Client\Model\Header
+     * @return Sirene\\Client\Model\Header
      */
     public function getHeader()
     {
@@ -217,7 +217,7 @@ class Reponse implements ModelInterface, ArrayAccess
     /**
      * Sets header
      *
-     * @param \Swagger\Client\Model\Header $header header
+     * @param \Sirene\Client\Model\Header $header header
      *
      * @return $this
      */

@@ -10,8 +10,8 @@ Name | Type | Description | Notes
 **avant** | **int** | Nombre d&#39;éléments dont la valeur est inférieure au premier intervalle, uniquement pour les facettes de type intervalle | [optional] 
 **apres** | **int** | Nombre d&#39;éléments dont la valeur est supérieure au dernier intervalle, uniquement pour les facettes de type intervalle | [optional] 
 **entre** | **int** | Nombre d&#39;élements compris entre la borne inférieure du premier intervalle et la borne supérieure du dernier intervalle, uniquement pour les facettes de type intervalle | [optional] 
-**comptages** | [**\Swagger\Client\Model\Comptage[]**](Comptage.md) |  | [optional] 
-**facettes** | [**\Swagger\Client\Model\Facette[]**](Facette.md) |  | [optional] 
+**comptages** | [**\Sirene\Client\Model\Comptage[]**](Comptage.md) |  | [optional] 
+**facettes** | [**\Sirene\Client\Model\Facette[]**](Facette.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -30,7 +30,7 @@
 namespace Sirene\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Sirene\Client\ObjectSerializer;
 
 /**
  * ReponseInformations Class Doc Comment
@@ -61,7 +61,7 @@ class ReponseInformations implements ModelInterface, ArrayAccess
         'etat_service' => 'string',
         'version_service' => 'string',
         'journal_des_modifications' => 'string',
-        'dates_dernieres_mises_a_jour_des_donnees' => '\Swagger\Client\Model\DatesMiseAJourDonnees[]'
+        'dates_dernieres_mises_a_jour_des_donnees' => '\Sirene\Client\Model\DatesMiseAJourDonnees[]'
     ];
 
     /**
@@ -330,7 +330,7 @@ class ReponseInformations implements ModelInterface, ArrayAccess
     /**
      * Gets dates_dernieres_mises_a_jour_des_donnees
      *
-     * @return \Swagger\Client\Model\DatesMiseAJourDonnees[]
+     * @return Sirene\\Client\Model\DatesMiseAJourDonnees[]
      */
     public function getDatesDernieresMisesAJourDesDonnees()
     {
@@ -340,7 +340,7 @@ class ReponseInformations implements ModelInterface, ArrayAccess
     /**
      * Sets dates_dernieres_mises_a_jour_des_donnees
      *
-     * @param \Swagger\Client\Model\DatesMiseAJourDonnees[] $dates_dernieres_mises_a_jour_des_donnees Dates des dernières mises à jour de chaque collection de données
+     * @param \Sirene\Client\Model\DatesMiseAJourDonnees[] $dates_dernieres_mises_a_jour_des_donnees Dates des dernières mises à jour de chaque collection de données
      *
      * @return $this
      */

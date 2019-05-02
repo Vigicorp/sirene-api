@@ -93,9 +93,9 @@ class InformationsApi
      * État du service, dates de mise à jour et numéro de version
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ReponseInformations
+     * @return Sirene\\Client\Model\ReponseInformations
      */
     public function informations()
     {
@@ -109,13 +109,13 @@ class InformationsApi
      * État du service, dates de mise à jour et numéro de version
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws Sirene\\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ReponseInformations, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Sirene\Client\Model\ReponseInformations, HTTP status code, HTTP response headers (array of strings)
      */
     public function informationsWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\ReponseInformations';
+        $returnType = '\Sirene\Client\Model\ReponseInformations';
         $request = $this->informationsRequest();
 
         try {
@@ -167,7 +167,7 @@ class InformationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ReponseInformations',
+                        '\Sirene\Client\Model\ReponseInformations',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -207,7 +207,7 @@ class InformationsApi
      */
     public function informationsAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\ReponseInformations';
+        $returnType = '\Sirene\Client\Model\ReponseInformations';
         $request = $this->informationsRequest();
 
         return $this->client
