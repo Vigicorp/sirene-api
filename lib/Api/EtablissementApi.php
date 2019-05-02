@@ -360,6 +360,9 @@ class EtablissementApi
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
         }
+        if ($this->config->getAccessToken()) {
+            $defaultHeaders['Authorization'] = sprintf('Bearer %s', $this->config->getAccessToken());
+        }
 
         $headers = array_merge(
             $defaultHeaders,
@@ -652,6 +655,9 @@ class EtablissementApi
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        }
+        if ($this->config->getAccessToken()) {
+            $defaultHeaders['Authorization'] = sprintf('Bearer %s', $this->config->getAccessToken());
         }
 
         $headers = array_merge(
@@ -991,6 +997,9 @@ class EtablissementApi
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
         }
+        if ($this->config->getAccessToken()) {
+            $defaultHeaders['Authorization'] = sprintf('Bearer %s', $this->config->getAccessToken());
+        }
 
         $headers = array_merge(
             $defaultHeaders,
@@ -1328,6 +1337,9 @@ class EtablissementApi
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
             $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        }
+        if ($this->config->getAccessToken()) {
+            $defaultHeaders['Authorization'] = sprintf('Bearer %s', $this->config->getAccessToken());
         }
 
         $headers = array_merge(
