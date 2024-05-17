@@ -81,7 +81,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = 'https://api.insee.fr/entreprises/sirene/V3';
+    protected $host = 'https://api.insee.fr/entreprises/sirene';
 
     /**
      * User agent of the HTTP request, set to "PHP-Swagger" by default
