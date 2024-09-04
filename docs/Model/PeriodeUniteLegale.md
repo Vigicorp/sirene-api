@@ -16,7 +16,6 @@ Name | Type | Description | Notes
 **denomination_usuelle1_unite_legale** | **string** | Premier nom sous lequel l’entreprise est connue du public | [optional] 
 **denomination_usuelle2_unite_legale** | **string** | Deuxième nom sous lequel l’entreprise est connue du public | [optional] 
 **denomination_usuelle3_unite_legale** | **string** | Troisième nom sous lequel l’entreprise est connue du public | [optional] 
-**changement_denomination_usuelle_unite_legale** | **bool** | Indicatrice de changement de la dénomination usuelle de l&#39;unité légale par rapport à la période précédente (un seul indicateur pour les trois variables denominationUsuelle1UniteLegale, denominationUsuelle2UniteLegale et denominationUsuelle3UniteLegale) | [optional] 
 **categorie_juridique_unite_legale** | **string** | Catégorie juridique de l&#39;entreprise (variable Null pour les personnes physiques. (&lt;a href&#x3D;&#39;https://www.insee.fr/fr/information/2028129&#39;&gt;la nomenclature sur insee.fr&lt;/a&gt;)) | [optional] 
 **changement_categorie_juridique_unite_legale** | **bool** | Indicatrice de changement de la catégorie juridique par rapport à la période précédente | [optional] 
 **activite_principale_unite_legale** | **string** | Activité principale de l&#39;entreprise pendant la période (l&#39;APE est codifiée selon la &lt;a href&#x3D;&#39;https://www.insee.fr/fr/information/2406147&#39;&gt;nomenclature d&#39;Activités Française (NAF)&lt;/a&gt; | [optional] 
@@ -26,6 +25,8 @@ Name | Type | Description | Notes
 **changement_nic_siege_unite_legale** | **bool** | Indicatrice de changement du NIC du siège par rapport à la période précédente | [optional] 
 **economie_sociale_solidaire_unite_legale** | **string** | Appartenance de l’unité légale au champ de l’économie sociale et solidaire (ESS) | [optional] 
 **changement_economie_sociale_solidaire_unite_legale** | **bool** | Indicatrice de changement de l&#39;ESS par rapport à la période précédente | [optional] 
+**societe_mission_unite_legale** | **string** | Appartenance de l’unité légale au champ société à mission (SM) | [optional] 
+**changement_societe_mission_unite_legale** | **bool** | Indicatrice de changement du champ société à mission par rapport à la période précédente | [optional] 
 **caractere_employeur_unite_legale** | **string** | Caractère employeur de l&#39;entreprise. Valeur courante&#x3D;O si au moins l&#39;un des établissements actifs de l&#39;unité légale emploie des salariés | [optional] 
 **changement_caractere_employeur_unite_legale** | **bool** | Indicatrice de changement du caractère employeur par rapport à la période précédente | [optional] 
 

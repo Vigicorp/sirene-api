@@ -13,12 +13,12 @@
 /**
  * API Sirene
  *
- * <p>Date de la dernière modification : 31 janvier 2019</p> <p>API Sirene donne accès aux informations concernant les entreprises et les établissements immatriculés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées. La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées. Les services actuellement disponibles interrogent les unités légales (Siren) et les établissements (Siret). À venir : prédécesseurs et successeurs d'un établissement et données pluriannuelles. <h4 class=\"add-margin-top-5x\">Licence</h4> <p>La réutilisation des jeux de données mis à votre disposition à partir de la base Sirene est soumise à la licence « <a href=\"https://www.etalab.gouv.fr/licence-ouverte-open-licence\" target=\"_blank\">Licence Ouverte / Open Licence version 2.0</a> » conçue par Etalab, organisme chargé de coordonner l’action des services de l’État et de ses établissements publics pour faciliter la réutilisation la plus large possible de leurs informations publiques, via le portail interministériel <a href=\"https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/\" title=\"data.gouv.fr\" target=\"_blank\" class=\"external-link\">data.gouv.fr</a></p> <p>La base Sirene contenant des données à caractère personnel, l’Insee attire votre attention sur les obligations légales qui en découlent :</p> <ul> <li>Le traitement de ces données relève des obligations de déclaration de la Loi 78-17 du 6 janvier 1978 modifiée, dite Loi Informatique et Libertés : <a href=\"http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460\" title=\"Nouvelle fenêtre : la loi 78-17 du 6 janvier 1978 sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Loi 78-17</a></li> <li>Selon votre usage du jeu de données, il est de votre responsabilité de tenir compte du statut de diffusion le plus récent de chaque personne physique.</li> </ul> <p>En effet, selon l’<a href=\"http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=C505A51DBC1A4EB1FFF3764C69ACDB1C.tpdjo11v_1?idArticle=LEGIARTI000020165030&cidTexte=LEGITEXT000005634379&dateTexte=20100702\" title=\"Nouvelle fenêtre : l’article A123-96 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Article A123-96 du code de commerce</a> :</p> <p>\"Toute personne physique peut demander soit directement lors de ses formalités de création ou de modification, soit par lettre adressée au directeur général de l’Institut national de la statistique et des études économiques, que les informations du répertoire la concernant ne puissent être utilisées par des tiers autres que les organismes habilités au titre de l’<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000005634379&idArticle=LEGIARTI000006258837&dateTexte=&categorieLien=cid\" title=\"article R. 123-224\" target=\"_blank\" class=\"external-link\">article R. 123-224</a> ou les administrations, à des fins de prospection, notamment commerciale.\"</p> <h4 class=\"add-margin-top-5x\">Limites d'utilisation</h4> <p>L'usage d'API Sirene est soumis à une limite de 30 interrogations par minute.</p> <p>L'Insee se réserve le droit de changer cette limite en cas de nécessité.</p> <h4 class=\"add-margin-top-5x\">Droit de rectification des données du répertoire Sirene</h4> <p>L'<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000020165042&cidTexte=LEGITEXT000005634379&dateTexte=20151223\" title=\"Nouvelle fenêtre : l’article A123-90 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">article A123-90 du code de commerce</a> indique que \"Le droit d'accès prévu par l'article 39 de la loi du 6 janvier 1978 s'exerce auprès du directeur régional de l'Institut national de la statistique et des études économiques.\"</p> <h4 class=\"add-margin-top-5x\">Homologation provisoire RGS (Référentiel général de sécurité)</h4> <p>Le directeur général de l’Insee, après avoir recueilli l’avis des membres de la commission d’homologation de sécurité, atteste que le système \"API Sirene\" est protégé, conformément aux objectifs fixés par le maître d’ouvrage, pour répondre, de manière proportionnée, aux besoins de protection du système et des informations, face aux risques identifiés.</p> <p>Paris le 22 Juin 2018</p> <p>Pour le directeur général de l’Insee</p> <p>Par délégation</p> <p>Le secrétaire général de l’Insee</p>
+ * <p><span style=\"color:blue;\"> <b> 4 septembre 2024 :</b> <br>Fin d’incident. Les données Sirene sont à jour. Merci de votre compréhension.</span><br><br><p><span style=\"color:blue;\"><b>21-08-2024.<br> L’Insee modernise son portail des API, en s’appuyant sur une nouvelle architecture.</b><br> Les conditions générales d’utilisation du portail, ainsi que celles des API présentées, demeurent inchangées.<br> Sous l’URL du nouveau portail <a href=\"https://portail-api.insee.fr/\">https://portail-api.insee.fr/</a>, vous retrouvez les API de diffusion de l’Insee.<br><br>   <b>Accès à l’API Sirene.</b><br> Pour accéder à l'API Sirene, vous devez créer un compte sur le nouveau portail, puis souscrire à l'API.<br> Vous trouverez un mode d'emploi sous le lien suivant :<br> <a href=\"https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021\">https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021</a><br> Un même compte peut souscrire à plusieurs API, en suivant la même procédure.<br><br>  <b>Dans quelques semaines, l'API Sirene ne sera accessible qu'à partir de ce nouveau portail.</b></span><br><br><p><span style=\"color:blue\"><b>Sirene 4 - l'Api Sirene 3.11 devient la version de référence depuis le 30 avril 2024</b><br>Le répertoire Sirene effectue régulèrement des opérations qualité. <br>Nous vous invitons à consulter <a  href=\"https://www.sirene.fr/sirene/public/static/sirene4\"target= »_blank » >« Sirene.fr »</a> pour obtenir le détail des opérations et en suivre l’avancement. </span><br><br> <p><h4 class=\"add-margin-top-5x\"><b>Les données du répertoire Sirene depuis 1973</b></h4><p>API Sirene donne accès aux informations concernant les entreprises et les établissements enregistrés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées.</p> <p>La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées.</p>  <p>Les services actuellement disponibles interrogent :</p> <ul> <li> les unités légales (siren) </li> <li> les établissements (siret). </li> </ul> <p>Le service informations permet de connaître les dates de dernières mises à jour.</p> <p>Le service Liens de succession informe sur les prédécesseurs et les successeurs des établissements.</p> <p align=\"justify\" style=\"margin-top: 0.6cm\">Les personnes inscrites au répertoire ayant demandé à bénéficier du statut de diffusion partielle conformément à l'article R123-232-1 du code de commerce ne doivent avoir leurs informations personnelles ni rediffusées entièrement, ni utilisées à des fins de prospection. <br> Le service nonDiffusibles anciennement proposé est, depuis le 21 mars 2023, plus disponible. La modalité non diffusible \"N\" n’existe plus, et le statut de diffusion des unités antérieurement non diffusibles \"N\" a été automatiquement converti en statut de diffusion partielle , \"P\". <br>  Il n’y a donc plus d’unités non diffusibles \"N\" dans la base Sirene. De manière transitoire, le service reste encore accessible mais renvoie un code 404.<br></p> <p>La lettre <b>Sirene open data actualités</b> est destinée aux utilisateurs des données Sirene. Pour vous abonner, <a href=\"https://insee.fr/fr/information/1405555\">suivez ce lien</a>. Pour consulter les précédents numéros, <a href=\"https://insee.fr/fr/information/3711739\">cliquez ici</a>.</p>
  *
- * OpenAPI spec version: 3.6.3
- *
+ * OpenAPI spec version: 3.11
+ * 
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.5
+ * Swagger Codegen version: 2.4.43
  */
 
 /**
@@ -71,7 +71,6 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'denomination_usuelle1_unite_legale' => 'string',
         'denomination_usuelle2_unite_legale' => 'string',
         'denomination_usuelle3_unite_legale' => 'string',
-        'changement_denomination_usuelle_unite_legale' => 'bool',
         'categorie_juridique_unite_legale' => 'string',
         'changement_categorie_juridique_unite_legale' => 'bool',
         'activite_principale_unite_legale' => 'string',
@@ -81,6 +80,8 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'changement_nic_siege_unite_legale' => 'bool',
         'economie_sociale_solidaire_unite_legale' => 'string',
         'changement_economie_sociale_solidaire_unite_legale' => 'bool',
+        'societe_mission_unite_legale' => 'string',
+        'changement_societe_mission_unite_legale' => 'bool',
         'caractere_employeur_unite_legale' => 'string',
         'changement_caractere_employeur_unite_legale' => 'bool'
     ];
@@ -104,7 +105,6 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'denomination_usuelle1_unite_legale' => null,
         'denomination_usuelle2_unite_legale' => null,
         'denomination_usuelle3_unite_legale' => null,
-        'changement_denomination_usuelle_unite_legale' => null,
         'categorie_juridique_unite_legale' => null,
         'changement_categorie_juridique_unite_legale' => null,
         'activite_principale_unite_legale' => null,
@@ -114,6 +114,8 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'changement_nic_siege_unite_legale' => null,
         'economie_sociale_solidaire_unite_legale' => null,
         'changement_economie_sociale_solidaire_unite_legale' => null,
+        'societe_mission_unite_legale' => null,
+        'changement_societe_mission_unite_legale' => null,
         'caractere_employeur_unite_legale' => null,
         'changement_caractere_employeur_unite_legale' => null
     ];
@@ -158,7 +160,6 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'denomination_usuelle1_unite_legale' => 'denominationUsuelle1UniteLegale',
         'denomination_usuelle2_unite_legale' => 'denominationUsuelle2UniteLegale',
         'denomination_usuelle3_unite_legale' => 'denominationUsuelle3UniteLegale',
-        'changement_denomination_usuelle_unite_legale' => 'changementDenominationUsuelleUniteLegale',
         'categorie_juridique_unite_legale' => 'categorieJuridiqueUniteLegale',
         'changement_categorie_juridique_unite_legale' => 'changementCategorieJuridiqueUniteLegale',
         'activite_principale_unite_legale' => 'activitePrincipaleUniteLegale',
@@ -168,6 +169,8 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'changement_nic_siege_unite_legale' => 'changementNicSiegeUniteLegale',
         'economie_sociale_solidaire_unite_legale' => 'economieSocialeSolidaireUniteLegale',
         'changement_economie_sociale_solidaire_unite_legale' => 'changementEconomieSocialeSolidaireUniteLegale',
+        'societe_mission_unite_legale' => 'societeMissionUniteLegale',
+        'changement_societe_mission_unite_legale' => 'changementSocieteMissionUniteLegale',
         'caractere_employeur_unite_legale' => 'caractereEmployeurUniteLegale',
         'changement_caractere_employeur_unite_legale' => 'changementCaractereEmployeurUniteLegale'
     ];
@@ -191,7 +194,6 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'denomination_usuelle1_unite_legale' => 'setDenominationUsuelle1UniteLegale',
         'denomination_usuelle2_unite_legale' => 'setDenominationUsuelle2UniteLegale',
         'denomination_usuelle3_unite_legale' => 'setDenominationUsuelle3UniteLegale',
-        'changement_denomination_usuelle_unite_legale' => 'setChangementDenominationUsuelleUniteLegale',
         'categorie_juridique_unite_legale' => 'setCategorieJuridiqueUniteLegale',
         'changement_categorie_juridique_unite_legale' => 'setChangementCategorieJuridiqueUniteLegale',
         'activite_principale_unite_legale' => 'setActivitePrincipaleUniteLegale',
@@ -201,6 +203,8 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'changement_nic_siege_unite_legale' => 'setChangementNicSiegeUniteLegale',
         'economie_sociale_solidaire_unite_legale' => 'setEconomieSocialeSolidaireUniteLegale',
         'changement_economie_sociale_solidaire_unite_legale' => 'setChangementEconomieSocialeSolidaireUniteLegale',
+        'societe_mission_unite_legale' => 'setSocieteMissionUniteLegale',
+        'changement_societe_mission_unite_legale' => 'setChangementSocieteMissionUniteLegale',
         'caractere_employeur_unite_legale' => 'setCaractereEmployeurUniteLegale',
         'changement_caractere_employeur_unite_legale' => 'setChangementCaractereEmployeurUniteLegale'
     ];
@@ -224,7 +228,6 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'denomination_usuelle1_unite_legale' => 'getDenominationUsuelle1UniteLegale',
         'denomination_usuelle2_unite_legale' => 'getDenominationUsuelle2UniteLegale',
         'denomination_usuelle3_unite_legale' => 'getDenominationUsuelle3UniteLegale',
-        'changement_denomination_usuelle_unite_legale' => 'getChangementDenominationUsuelleUniteLegale',
         'categorie_juridique_unite_legale' => 'getCategorieJuridiqueUniteLegale',
         'changement_categorie_juridique_unite_legale' => 'getChangementCategorieJuridiqueUniteLegale',
         'activite_principale_unite_legale' => 'getActivitePrincipaleUniteLegale',
@@ -234,6 +237,8 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         'changement_nic_siege_unite_legale' => 'getChangementNicSiegeUniteLegale',
         'economie_sociale_solidaire_unite_legale' => 'getEconomieSocialeSolidaireUniteLegale',
         'changement_economie_sociale_solidaire_unite_legale' => 'getChangementEconomieSocialeSolidaireUniteLegale',
+        'societe_mission_unite_legale' => 'getSocieteMissionUniteLegale',
+        'changement_societe_mission_unite_legale' => 'getChangementSocieteMissionUniteLegale',
         'caractere_employeur_unite_legale' => 'getCaractereEmployeurUniteLegale',
         'changement_caractere_employeur_unite_legale' => 'getChangementCaractereEmployeurUniteLegale'
     ];
@@ -362,7 +367,6 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         $this->container['denomination_usuelle1_unite_legale'] = isset($data['denomination_usuelle1_unite_legale']) ? $data['denomination_usuelle1_unite_legale'] : null;
         $this->container['denomination_usuelle2_unite_legale'] = isset($data['denomination_usuelle2_unite_legale']) ? $data['denomination_usuelle2_unite_legale'] : null;
         $this->container['denomination_usuelle3_unite_legale'] = isset($data['denomination_usuelle3_unite_legale']) ? $data['denomination_usuelle3_unite_legale'] : null;
-        $this->container['changement_denomination_usuelle_unite_legale'] = isset($data['changement_denomination_usuelle_unite_legale']) ? $data['changement_denomination_usuelle_unite_legale'] : null;
         $this->container['categorie_juridique_unite_legale'] = isset($data['categorie_juridique_unite_legale']) ? $data['categorie_juridique_unite_legale'] : null;
         $this->container['changement_categorie_juridique_unite_legale'] = isset($data['changement_categorie_juridique_unite_legale']) ? $data['changement_categorie_juridique_unite_legale'] : null;
         $this->container['activite_principale_unite_legale'] = isset($data['activite_principale_unite_legale']) ? $data['activite_principale_unite_legale'] : null;
@@ -372,6 +376,8 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         $this->container['changement_nic_siege_unite_legale'] = isset($data['changement_nic_siege_unite_legale']) ? $data['changement_nic_siege_unite_legale'] : null;
         $this->container['economie_sociale_solidaire_unite_legale'] = isset($data['economie_sociale_solidaire_unite_legale']) ? $data['economie_sociale_solidaire_unite_legale'] : null;
         $this->container['changement_economie_sociale_solidaire_unite_legale'] = isset($data['changement_economie_sociale_solidaire_unite_legale']) ? $data['changement_economie_sociale_solidaire_unite_legale'] : null;
+        $this->container['societe_mission_unite_legale'] = isset($data['societe_mission_unite_legale']) ? $data['societe_mission_unite_legale'] : null;
+        $this->container['changement_societe_mission_unite_legale'] = isset($data['changement_societe_mission_unite_legale']) ? $data['changement_societe_mission_unite_legale'] : null;
         $this->container['caractere_employeur_unite_legale'] = isset($data['caractere_employeur_unite_legale']) ? $data['caractere_employeur_unite_legale'] : null;
         $this->container['changement_caractere_employeur_unite_legale'] = isset($data['changement_caractere_employeur_unite_legale']) ? $data['changement_caractere_employeur_unite_legale'] : null;
     }
@@ -746,30 +752,6 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
     }
 
     /**
-     * Gets changement_denomination_usuelle_unite_legale
-     *
-     * @return bool
-     */
-    public function getChangementDenominationUsuelleUniteLegale()
-    {
-        return $this->container['changement_denomination_usuelle_unite_legale'];
-    }
-
-    /**
-     * Sets changement_denomination_usuelle_unite_legale
-     *
-     * @param bool $changement_denomination_usuelle_unite_legale Indicatrice de changement de la dénomination usuelle de l'unité légale par rapport à la période précédente (un seul indicateur pour les trois variables denominationUsuelle1UniteLegale, denominationUsuelle2UniteLegale et denominationUsuelle3UniteLegale)
-     *
-     * @return $this
-     */
-    public function setChangementDenominationUsuelleUniteLegale($changement_denomination_usuelle_unite_legale)
-    {
-        $this->container['changement_denomination_usuelle_unite_legale'] = $changement_denomination_usuelle_unite_legale;
-
-        return $this;
-    }
-
-    /**
      * Gets categorie_juridique_unite_legale
      *
      * @return string
@@ -995,6 +977,54 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets societe_mission_unite_legale
+     *
+     * @return string
+     */
+    public function getSocieteMissionUniteLegale()
+    {
+        return $this->container['societe_mission_unite_legale'];
+    }
+
+    /**
+     * Sets societe_mission_unite_legale
+     *
+     * @param string $societe_mission_unite_legale Appartenance de l’unité légale au champ société à mission (SM)
+     *
+     * @return $this
+     */
+    public function setSocieteMissionUniteLegale($societe_mission_unite_legale)
+    {
+        $this->container['societe_mission_unite_legale'] = $societe_mission_unite_legale;
+
+        return $this;
+    }
+
+    /**
+     * Gets changement_societe_mission_unite_legale
+     *
+     * @return bool
+     */
+    public function getChangementSocieteMissionUniteLegale()
+    {
+        return $this->container['changement_societe_mission_unite_legale'];
+    }
+
+    /**
+     * Sets changement_societe_mission_unite_legale
+     *
+     * @param bool $changement_societe_mission_unite_legale Indicatrice de changement du champ société à mission par rapport à la période précédente
+     *
+     * @return $this
+     */
+    public function setChangementSocieteMissionUniteLegale($changement_societe_mission_unite_legale)
+    {
+        $this->container['changement_societe_mission_unite_legale'] = $changement_societe_mission_unite_legale;
+
+        return $this;
+    }
+
+    /**
      * Gets caractere_employeur_unite_legale
      *
      * @return string
@@ -1057,6 +1087,7 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -1069,6 +1100,7 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
@@ -1082,6 +1114,7 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
@@ -1098,6 +1131,7 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);
@@ -1120,5 +1154,3 @@ class PeriodeUniteLegale implements ModelInterface, ArrayAccess
         return json_encode(ObjectSerializer::sanitizeForSerialization($this));
     }
 }
-
-

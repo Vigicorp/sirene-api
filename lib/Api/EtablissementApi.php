@@ -12,12 +12,12 @@
 /**
  * API Sirene
  *
- * <p>Date de la dernière modification : 31 janvier 2019</p> <p>API Sirene donne accès aux informations concernant les entreprises et les établissements immatriculés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées. La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées. Les services actuellement disponibles interrogent les unités légales (Siren) et les établissements (Siret). À venir : prédécesseurs et successeurs d'un établissement et données pluriannuelles. <h4 class=\"add-margin-top-5x\">Licence</h4> <p>La réutilisation des jeux de données mis à votre disposition à partir de la base Sirene est soumise à la licence « <a href=\"https://www.etalab.gouv.fr/licence-ouverte-open-licence\" target=\"_blank\">Licence Ouverte / Open Licence version 2.0</a> » conçue par Etalab, organisme chargé de coordonner l’action des services de l’État et de ses établissements publics pour faciliter la réutilisation la plus large possible de leurs informations publiques, via le portail interministériel <a href=\"https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/\" title=\"data.gouv.fr\" target=\"_blank\" class=\"external-link\">data.gouv.fr</a></p> <p>La base Sirene contenant des données à caractère personnel, l’Insee attire votre attention sur les obligations légales qui en découlent :</p> <ul> <li>Le traitement de ces données relève des obligations de déclaration de la Loi 78-17 du 6 janvier 1978 modifiée, dite Loi Informatique et Libertés : <a href=\"http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460\" title=\"Nouvelle fenêtre : la loi 78-17 du 6 janvier 1978 sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Loi 78-17</a></li> <li>Selon votre usage du jeu de données, il est de votre responsabilité de tenir compte du statut de diffusion le plus récent de chaque personne physique.</li> </ul> <p>En effet, selon l’<a href=\"http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=C505A51DBC1A4EB1FFF3764C69ACDB1C.tpdjo11v_1?idArticle=LEGIARTI000020165030&cidTexte=LEGITEXT000005634379&dateTexte=20100702\" title=\"Nouvelle fenêtre : l’article A123-96 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Article A123-96 du code de commerce</a> :</p> <p>\"Toute personne physique peut demander soit directement lors de ses formalités de création ou de modification, soit par lettre adressée au directeur général de l’Institut national de la statistique et des études économiques, que les informations du répertoire la concernant ne puissent être utilisées par des tiers autres que les organismes habilités au titre de l’<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000005634379&idArticle=LEGIARTI000006258837&dateTexte=&categorieLien=cid\" title=\"article R. 123-224\" target=\"_blank\" class=\"external-link\">article R. 123-224</a> ou les administrations, à des fins de prospection, notamment commerciale.\"</p> <h4 class=\"add-margin-top-5x\">Limites d'utilisation</h4> <p>L'usage d'API Sirene est soumis à une limite de 30 interrogations par minute.</p> <p>L'Insee se réserve le droit de changer cette limite en cas de nécessité.</p> <h4 class=\"add-margin-top-5x\">Droit de rectification des données du répertoire Sirene</h4> <p>L'<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000020165042&cidTexte=LEGITEXT000005634379&dateTexte=20151223\" title=\"Nouvelle fenêtre : l’article A123-90 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">article A123-90 du code de commerce</a> indique que \"Le droit d'accès prévu par l'article 39 de la loi du 6 janvier 1978 s'exerce auprès du directeur régional de l'Institut national de la statistique et des études économiques.\"</p> <h4 class=\"add-margin-top-5x\">Homologation provisoire RGS (Référentiel général de sécurité)</h4> <p>Le directeur général de l’Insee, après avoir recueilli l’avis des membres de la commission d’homologation de sécurité, atteste que le système \"API Sirene\" est protégé, conformément aux objectifs fixés par le maître d’ouvrage, pour répondre, de manière proportionnée, aux besoins de protection du système et des informations, face aux risques identifiés.</p> <p>Paris le 22 Juin 2018</p> <p>Pour le directeur général de l’Insee</p> <p>Par délégation</p> <p>Le secrétaire général de l’Insee</p>
+ * <p><span style=\"color:blue;\"> <b> 4 septembre 2024 :</b> <br>Fin d’incident. Les données Sirene sont à jour. Merci de votre compréhension.</span><br><br><p><span style=\"color:blue;\"><b>21-08-2024.<br> L’Insee modernise son portail des API, en s’appuyant sur une nouvelle architecture.</b><br> Les conditions générales d’utilisation du portail, ainsi que celles des API présentées, demeurent inchangées.<br> Sous l’URL du nouveau portail <a href=\"https://portail-api.insee.fr/\">https://portail-api.insee.fr/</a>, vous retrouvez les API de diffusion de l’Insee.<br><br>   <b>Accès à l’API Sirene.</b><br> Pour accéder à l'API Sirene, vous devez créer un compte sur le nouveau portail, puis souscrire à l'API.<br> Vous trouverez un mode d'emploi sous le lien suivant :<br> <a href=\"https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021\">https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021</a><br> Un même compte peut souscrire à plusieurs API, en suivant la même procédure.<br><br>  <b>Dans quelques semaines, l'API Sirene ne sera accessible qu'à partir de ce nouveau portail.</b></span><br><br><p><span style=\"color:blue\"><b>Sirene 4 - l'Api Sirene 3.11 devient la version de référence depuis le 30 avril 2024</b><br>Le répertoire Sirene effectue régulèrement des opérations qualité. <br>Nous vous invitons à consulter <a  href=\"https://www.sirene.fr/sirene/public/static/sirene4\"target= »_blank » >« Sirene.fr »</a> pour obtenir le détail des opérations et en suivre l’avancement. </span><br><br> <p><h4 class=\"add-margin-top-5x\"><b>Les données du répertoire Sirene depuis 1973</b></h4><p>API Sirene donne accès aux informations concernant les entreprises et les établissements enregistrés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées.</p> <p>La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées.</p>  <p>Les services actuellement disponibles interrogent :</p> <ul> <li> les unités légales (siren) </li> <li> les établissements (siret). </li> </ul> <p>Le service informations permet de connaître les dates de dernières mises à jour.</p> <p>Le service Liens de succession informe sur les prédécesseurs et les successeurs des établissements.</p> <p align=\"justify\" style=\"margin-top: 0.6cm\">Les personnes inscrites au répertoire ayant demandé à bénéficier du statut de diffusion partielle conformément à l'article R123-232-1 du code de commerce ne doivent avoir leurs informations personnelles ni rediffusées entièrement, ni utilisées à des fins de prospection. <br> Le service nonDiffusibles anciennement proposé est, depuis le 21 mars 2023, plus disponible. La modalité non diffusible \"N\" n’existe plus, et le statut de diffusion des unités antérieurement non diffusibles \"N\" a été automatiquement converti en statut de diffusion partielle , \"P\". <br>  Il n’y a donc plus d’unités non diffusibles \"N\" dans la base Sirene. De manière transitoire, le service reste encore accessible mais renvoie un code 404.<br></p> <p>La lettre <b>Sirene open data actualités</b> est destinée aux utilisateurs des données Sirene. Pour vous abonner, <a href=\"https://insee.fr/fr/information/1405555\">suivez ce lien</a>. Pour consulter les précédents numéros, <a href=\"https://insee.fr/fr/information/3711739\">cliquez ici</a>.</p>
  *
- * OpenAPI spec version: 3.6.3
+ * OpenAPI spec version: 3.11
  *
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.5
+ * Swagger Codegen version: 2.4.43
  */
 
 /**
@@ -330,9 +330,16 @@ class EtablissementApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -351,7 +358,7 @@ class EtablissementApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
@@ -370,7 +377,7 @@ class EtablissementApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -388,14 +395,15 @@ class EtablissementApi
      * @param  string $tri Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
      * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return \Sirene\Client\Model\ReponseLienSuccession
      */
-    public function findLiensSuccessionByQ($q = null, $tri = null, $nombre = null, $debut = null)
+    public function findLiensSuccessionByQ($q = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        list($response) = $this->findLiensSuccessionByQWithHttpInfo($q, $tri, $nombre, $debut);
+        list($response) = $this->findLiensSuccessionByQWithHttpInfo($q, $tri, $nombre, $debut, $curseur);
         return $response;
     }
 
@@ -408,15 +416,16 @@ class EtablissementApi
      * @param  string $tri Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
      * @throws \Sirene\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \Sirene\Client\Model\ReponseLienSuccession, HTTP status code, HTTP response headers (array of strings)
      */
-    public function findLiensSuccessionByQWithHttpInfo($q = null, $tri = null, $nombre = null, $debut = null)
+    public function findLiensSuccessionByQWithHttpInfo($q = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
         $returnType = '\Sirene\Client\Model\ReponseLienSuccession';
-        $request = $this->findLiensSuccessionByQRequest($q, $tri, $nombre, $debut);
+        $request = $this->findLiensSuccessionByQRequest($q, $tri, $nombre, $debut, $curseur);
 
         try {
             $options = $this->createHttpClientOption();
@@ -486,13 +495,14 @@ class EtablissementApi
      * @param  string $tri Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findLiensSuccessionByQAsync($q = null, $tri = null, $nombre = null, $debut = null)
+    public function findLiensSuccessionByQAsync($q = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        return $this->findLiensSuccessionByQAsyncWithHttpInfo($q, $tri, $nombre, $debut)
+        return $this->findLiensSuccessionByQAsyncWithHttpInfo($q, $tri, $nombre, $debut, $curseur)
             ->then(
                 function ($response) {
                     return $response[0];
@@ -509,14 +519,15 @@ class EtablissementApi
      * @param  string $tri Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findLiensSuccessionByQAsyncWithHttpInfo($q = null, $tri = null, $nombre = null, $debut = null)
+    public function findLiensSuccessionByQAsyncWithHttpInfo($q = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
         $returnType = '\Sirene\Client\Model\ReponseLienSuccession';
-        $request = $this->findLiensSuccessionByQRequest($q, $tri, $nombre, $debut);
+        $request = $this->findLiensSuccessionByQRequest($q, $tri, $nombre, $debut, $curseur);
 
         return $this->client
             ->sendAsync($request, $this->createHttpClientOption())
@@ -562,21 +573,22 @@ class EtablissementApi
      * @param  string $tri Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
      */
-    protected function findLiensSuccessionByQRequest($q = null, $tri = null, $nombre = null, $debut = null)
+    protected function findLiensSuccessionByQRequest($q = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        if ($nombre !== null && $nombre > 100000) {
-            throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findLiensSuccessionByQ, must be smaller than or equal to 100000.');
+        if ($nombre !== null && $nombre > 1000) {
+            throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findLiensSuccessionByQ, must be smaller than or equal to 1000.');
         }
         if ($nombre !== null && $nombre < 0) {
             throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findLiensSuccessionByQ, must be bigger than or equal to 0.');
         }
 
-        if ($debut !== null && $debut > 1000000) {
-            throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findLiensSuccessionByQ, must be smaller than or equal to 1000000.');
+        if ($debut !== null && $debut > 10000) {
+            throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findLiensSuccessionByQ, must be smaller than or equal to 10000.');
         }
         if ($debut !== null && $debut < 0) {
             throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findLiensSuccessionByQ, must be bigger than or equal to 0.');
@@ -606,6 +618,10 @@ class EtablissementApi
         if ($debut !== null) {
             $queryParams['debut'] = ObjectSerializer::toQueryValue($debut);
         }
+        // query params
+        if ($curseur !== null) {
+            $queryParams['curseur'] = ObjectSerializer::toQueryValue($curseur);
+        }
 
 
         // body params
@@ -613,11 +629,11 @@ class EtablissementApi
 
         if ($multipart) {
             $headers = $this->headerSelector->selectHeadersForMultipart(
-                ['application/json']
+                ['application/json', 'text/csv']
             );
         } else {
             $headers = $this->headerSelector->selectHeaders(
-                ['application/json'],
+                ['application/json', 'text/csv'],
                 []
             );
         }
@@ -626,9 +642,16 @@ class EtablissementApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -647,7 +670,7 @@ class EtablissementApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
@@ -666,7 +689,7 @@ class EtablissementApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -685,7 +708,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -710,7 +733,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -793,7 +816,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -821,7 +844,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -879,7 +902,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -889,15 +912,15 @@ class EtablissementApi
      */
     protected function findSiretByQRequest($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        if ($nombre !== null && $nombre > 100000) {
-            throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findSiretByQ, must be smaller than or equal to 100000.');
+        if ($nombre !== null && $nombre > 200000) {
+            throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findSiretByQ, must be smaller than or equal to 200000.');
         }
         if ($nombre !== null && $nombre < 0) {
             throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findSiretByQ, must be bigger than or equal to 0.');
         }
 
-        if ($debut !== null && $debut > 1000000) {
-            throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findSiretByQ, must be smaller than or equal to 1000000.');
+        if ($debut !== null && $debut > 10000) {
+            throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findSiretByQ, must be smaller than or equal to 10000.');
         }
         if ($debut !== null && $debut < 0) {
             throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findSiretByQ, must be bigger than or equal to 0.');
@@ -967,9 +990,16 @@ class EtablissementApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -988,7 +1018,7 @@ class EtablissementApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
@@ -1007,7 +1037,7 @@ class EtablissementApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1026,7 +1056,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -1051,7 +1081,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -1134,7 +1164,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -1162,7 +1192,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -1220,7 +1250,7 @@ class EtablissementApi
      * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
      * @param  bool $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur (optional)
      * @param  string $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules (optional)
-     * @param  bool $tri Active ou non le tri des résultats par identifiants, par défaut false (optional)
+     * @param  string $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut (optional)
      * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
      * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
      * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
@@ -1230,15 +1260,15 @@ class EtablissementApi
      */
     protected function findSiretByQPostRequest($q = null, $date = null, $champs = null, $masquer_valeurs_nulles = null, $facette_champ = null, $tri = null, $nombre = null, $debut = null, $curseur = null)
     {
-        if ($nombre !== null && $nombre > 100000) {
-            throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findSiretByQPost, must be smaller than or equal to 100000.');
+        if ($nombre !== null && $nombre > 200000) {
+            throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findSiretByQPost, must be smaller than or equal to 200000.');
         }
         if ($nombre !== null && $nombre < 0) {
             throw new \InvalidArgumentException('invalid value for "$nombre" when calling EtablissementApi.findSiretByQPost, must be bigger than or equal to 0.');
         }
 
-        if ($debut !== null && $debut > 1000000) {
-            throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findSiretByQPost, must be smaller than or equal to 1000000.');
+        if ($debut !== null && $debut > 10000) {
+            throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findSiretByQPost, must be smaller than or equal to 10000.');
         }
         if ($debut !== null && $debut < 0) {
             throw new \InvalidArgumentException('invalid value for "$debut" when calling EtablissementApi.findSiretByQPost, must be bigger than or equal to 0.');
@@ -1308,9 +1338,16 @@ class EtablissementApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -1329,7 +1366,302 @@ class EtablissementApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
+            }
+        }
+
+
+        $defaultHeaders = [];
+        if ($this->config->getUserAgent()) {
+            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        }
+
+        $headers = array_merge(
+            $defaultHeaders,
+            $headerParams,
+            $headers
+        );
+
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
+        return new Request(
+            'POST',
+            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $headers,
+            $httpBody
+        );
+    }
+
+    /**
+     * Operation findSiretNonDifusiblesByQ
+     *
+     * Recherche sur les non diffusibles - Le service n'est plus alimenté : il est obsolète.
+     *
+     * @param  string $q Contenu de la requête multicritères, voir la documentation pour plus de précisions (optional)
+     * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
+     * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
+     * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
+     *
+     * @throws \Sirene\Client\ApiException on non-2xx response
+     * @throws \InvalidArgumentException
+     * @return \Sirene\Client\Model\ReponseEtablissementsNonDiffusibles
+     */
+    public function findSiretNonDifusiblesByQ($q = null, $nombre = null, $debut = null, $curseur = null, $champs = null)
+    {
+        list($response) = $this->findSiretNonDifusiblesByQWithHttpInfo($q, $nombre, $debut, $curseur, $champs);
+        return $response;
+    }
+
+    /**
+     * Operation findSiretNonDifusiblesByQWithHttpInfo
+     *
+     * Recherche sur les non diffusibles - Le service n'est plus alimenté : il est obsolète.
+     *
+     * @param  string $q Contenu de la requête multicritères, voir la documentation pour plus de précisions (optional)
+     * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
+     * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
+     * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
+     *
+     * @throws \Sirene\Client\ApiException on non-2xx response
+     * @throws \InvalidArgumentException
+     * @return array of \Sirene\Client\Model\ReponseEtablissementsNonDiffusibles, HTTP status code, HTTP response headers (array of strings)
+     */
+    public function findSiretNonDifusiblesByQWithHttpInfo($q = null, $nombre = null, $debut = null, $curseur = null, $champs = null)
+    {
+        $returnType = '\Sirene\Client\Model\ReponseEtablissementsNonDiffusibles';
+        $request = $this->findSiretNonDifusiblesByQRequest($q, $nombre, $debut, $curseur, $champs);
+
+        try {
+            $options = $this->createHttpClientOption();
+            try {
+                $response = $this->client->send($request, $options);
+            } catch (RequestException $e) {
+                throw new ApiException(
+                    "[{$e->getCode()}] {$e->getMessage()}",
+                    $e->getCode(),
+                    $e->getResponse() ? $e->getResponse()->getHeaders() : null,
+                    $e->getResponse() ? $e->getResponse()->getBody()->getContents() : null
+                );
+            }
+
+            $statusCode = $response->getStatusCode();
+
+            if ($statusCode < 200 || $statusCode > 299) {
+                throw new ApiException(
+                    sprintf(
+                        '[%d] Error connecting to the API (%s)',
+                        $statusCode,
+                        $request->getUri()
+                    ),
+                    $statusCode,
+                    $response->getHeaders(),
+                    $response->getBody()
+                );
+            }
+
+            $responseBody = $response->getBody();
+            if ($returnType === '\SplFileObject') {
+                $content = $responseBody; //stream goes to serializer
+            } else {
+                $content = $responseBody->getContents();
+                if ($returnType !== 'string') {
+                    $content = json_decode($content);
+                }
+            }
+
+            return [
+                ObjectSerializer::deserialize($content, $returnType, []),
+                $response->getStatusCode(),
+                $response->getHeaders()
+            ];
+
+        } catch (ApiException $e) {
+            switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Sirene\Client\Model\ReponseEtablissementsNonDiffusibles',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+            }
+            throw $e;
+        }
+    }
+
+    /**
+     * Operation findSiretNonDifusiblesByQAsync
+     *
+     * Recherche sur les non diffusibles - Le service n'est plus alimenté : il est obsolète.
+     *
+     * @param  string $q Contenu de la requête multicritères, voir la documentation pour plus de précisions (optional)
+     * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
+     * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
+     * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
+     *
+     * @throws \InvalidArgumentException
+     * @return \GuzzleHttp\Promise\PromiseInterface
+     */
+    public function findSiretNonDifusiblesByQAsync($q = null, $nombre = null, $debut = null, $curseur = null, $champs = null)
+    {
+        return $this->findSiretNonDifusiblesByQAsyncWithHttpInfo($q, $nombre, $debut, $curseur, $champs)
+            ->then(
+                function ($response) {
+                    return $response[0];
+                }
+            );
+    }
+
+    /**
+     * Operation findSiretNonDifusiblesByQAsyncWithHttpInfo
+     *
+     * Recherche sur les non diffusibles - Le service n'est plus alimenté : il est obsolète.
+     *
+     * @param  string $q Contenu de la requête multicritères, voir la documentation pour plus de précisions (optional)
+     * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
+     * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
+     * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
+     *
+     * @throws \InvalidArgumentException
+     * @return \GuzzleHttp\Promise\PromiseInterface
+     */
+    public function findSiretNonDifusiblesByQAsyncWithHttpInfo($q = null, $nombre = null, $debut = null, $curseur = null, $champs = null)
+    {
+        $returnType = '\Sirene\Client\Model\ReponseEtablissementsNonDiffusibles';
+        $request = $this->findSiretNonDifusiblesByQRequest($q, $nombre, $debut, $curseur, $champs);
+
+        return $this->client
+            ->sendAsync($request, $this->createHttpClientOption())
+            ->then(
+                function ($response) use ($returnType) {
+                    $responseBody = $response->getBody();
+                    if ($returnType === '\SplFileObject') {
+                        $content = $responseBody; //stream goes to serializer
+                    } else {
+                        $content = $responseBody->getContents();
+                        if ($returnType !== 'string') {
+                            $content = json_decode($content);
+                        }
+                    }
+
+                    return [
+                        ObjectSerializer::deserialize($content, $returnType, []),
+                        $response->getStatusCode(),
+                        $response->getHeaders()
+                    ];
+                },
+                function ($exception) {
+                    $response = $exception->getResponse();
+                    $statusCode = $response->getStatusCode();
+                    throw new ApiException(
+                        sprintf(
+                            '[%d] Error connecting to the API (%s)',
+                            $statusCode,
+                            $exception->getRequest()->getUri()
+                        ),
+                        $statusCode,
+                        $response->getHeaders(),
+                        $response->getBody()
+                    );
+                }
+            );
+    }
+
+    /**
+     * Create request for operation 'findSiretNonDifusiblesByQ'
+     *
+     * @param  string $q Contenu de la requête multicritères, voir la documentation pour plus de précisions (optional)
+     * @param  int $nombre Nombre d&#39;éléments demandés dans la réponse, défaut 20 (optional)
+     * @param  int $debut Rang du premier élément demandé dans la réponse, défaut 0 (optional)
+     * @param  string $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions (optional)
+     * @param  string $champs Liste des champs demandés, séparés par des virgules (optional)
+     *
+     * @throws \InvalidArgumentException
+     * @return \GuzzleHttp\Psr7\Request
+     */
+    protected function findSiretNonDifusiblesByQRequest($q = null, $nombre = null, $debut = null, $curseur = null, $champs = null)
+    {
+
+        $resourcePath = '/siret/nonDiffusibles';
+        $formParams = [];
+        $queryParams = [];
+        $headerParams = [];
+        $httpBody = '';
+        $multipart = false;
+
+        // query params
+        if ($q !== null) {
+            $queryParams['q'] = ObjectSerializer::toQueryValue($q);
+        }
+        // query params
+        if ($nombre !== null) {
+            $queryParams['nombre'] = ObjectSerializer::toQueryValue($nombre);
+        }
+        // query params
+        if ($debut !== null) {
+            $queryParams['debut'] = ObjectSerializer::toQueryValue($debut);
+        }
+        // query params
+        if ($curseur !== null) {
+            $queryParams['curseur'] = ObjectSerializer::toQueryValue($curseur);
+        }
+        // query params
+        if ($champs !== null) {
+            $queryParams['champs'] = ObjectSerializer::toQueryValue($champs);
+        }
+
+
+        // body params
+        $_tempBody = null;
+
+        if ($multipart) {
+            $headers = $this->headerSelector->selectHeadersForMultipart(
+                ['application/json', 'text/csv']
+            );
+        } else {
+            $headers = $this->headerSelector->selectHeaders(
+                ['application/json', 'text/csv'],
+                []
+            );
+        }
+
+        // for model (json/xml)
+        if (isset($_tempBody)) {
+            // $_tempBody is the method argument, if present
+            $httpBody = $_tempBody;
+
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
+            }
+        } elseif (count($formParams) > 0) {
+            if ($multipart) {
+                $multipartContents = [];
+                foreach ($formParams as $formParamName => $formParamValue) {
+                    $multipartContents[] = [
+                        'name' => $formParamName,
+                        'contents' => $formParamValue
+                    ];
+                }
+                // for HTTP post (form)
+                $httpBody = new MultipartStream($multipartContents);
+
+            } elseif ($headers['Content-Type'] === 'application/json') {
+                $httpBody = \GuzzleHttp\json_encode($formParams);
+
+            } else {
+                // for HTTP post (form)
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
@@ -1348,9 +1680,9 @@ class EtablissementApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
-            'POST',
+            'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody

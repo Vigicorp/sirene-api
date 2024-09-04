@@ -1,6 +1,6 @@
 # Sirene\Client\EtablissementApi
 
-All URIs are relative to *https://api.insee.fr/entreprises/sirene/V3*
+All URIs are relative to *https://api.insee.fr/entreprises/sirene/V3.11*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -8,6 +8,7 @@ Method | HTTP request | Description
 [**findLiensSuccessionByQ**](EtablissementApi.md#findLiensSuccessionByQ) | **GET** /siret/liensSuccession | Recherche multicritère sur les liens de succession
 [**findSiretByQ**](EtablissementApi.md#findSiretByQ) | **GET** /siret | Recherche multicritère d&#39;établissements
 [**findSiretByQPost**](EtablissementApi.md#findSiretByQPost) | **POST** /siret | Recherche multicritère d&#39;établissements
+[**findSiretNonDifusiblesByQ**](EtablissementApi.md#findSiretNonDifusiblesByQ) | **GET** /siret/nonDiffusibles | Recherche sur les non diffusibles - Le service n&#39;est plus alimenté : il est obsolète.
 
 
 # **findBySiret**
@@ -66,7 +67,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findLiensSuccessionByQ**
-> \Sirene\Client\Model\ReponseLienSuccession findLiensSuccessionByQ($q, $tri, $nombre, $debut)
+> \Sirene\Client\Model\ReponseLienSuccession findLiensSuccessionByQ($q, $tri, $nombre, $debut, $curseur)
 
 Recherche multicritère sur les liens de succession
 
@@ -86,9 +87,10 @@ $q = "q_example"; // string | Contenu de la requête multicritères, voir la doc
 $tri = "tri_example"; // string | Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur
 $nombre = 56; // int | Nombre d'éléments demandés dans la réponse, défaut 20
 $debut = 56; // int | Rang du premier élément demandé dans la réponse, défaut 0
+$curseur = "curseur_example"; // string | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
 
 try {
-    $result = $apiInstance->findLiensSuccessionByQ($q, $tri, $nombre, $debut);
+    $result = $apiInstance->findLiensSuccessionByQ($q, $tri, $nombre, $debut, $curseur);
     print_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling EtablissementApi->findLiensSuccessionByQ: ', $e->getMessage(), PHP_EOL;
@@ -104,6 +106,7 @@ Name | Type | Description  | Notes
  **tri** | **string**| Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur | [optional]
  **nombre** | **int**| Nombre d&#39;éléments demandés dans la réponse, défaut 20 | [optional]
  **debut** | **int**| Rang du premier élément demandé dans la réponse, défaut 0 | [optional]
+ **curseur** | **string**| Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions | [optional]
 
 ### Return type
 
@@ -116,7 +119,7 @@ No authorization required
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/json
+ - **Accept**: application/json, text/csv
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -142,7 +145,7 @@ $date = "date_example"; // string | Date à laquelle s'appliqueront les critère
 $champs = "champs_example"; // string | Liste des champs demandés, séparés par des virgules
 $masquer_valeurs_nulles = true; // bool | Masque (true) ou affiche (false, par défaut) les attributs qui n'ont pas de valeur
 $facette_champ = "facette_champ_example"; // string | Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules
-$tri = true; // bool | Active ou non le tri des résultats par identifiants, par défaut false
+$tri = "tri_example"; // string | Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut
 $nombre = 56; // int | Nombre d'éléments demandés dans la réponse, défaut 20
 $debut = 56; // int | Rang du premier élément demandé dans la réponse, défaut 0
 $curseur = "curseur_example"; // string | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
@@ -165,7 +168,7 @@ Name | Type | Description  | Notes
  **champs** | **string**| Liste des champs demandés, séparés par des virgules | [optional]
  **masquer_valeurs_nulles** | **bool**| Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur | [optional]
  **facette_champ** | **string**| Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules | [optional]
- **tri** | **bool**| Active ou non le tri des résultats par identifiants, par défaut false | [optional]
+ **tri** | **string**| Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut | [optional]
  **nombre** | **int**| Nombre d&#39;éléments demandés dans la réponse, défaut 20 | [optional]
  **debut** | **int**| Rang du premier élément demandé dans la réponse, défaut 0 | [optional]
  **curseur** | **string**| Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions | [optional]
@@ -207,7 +210,7 @@ $date = "date_example"; // string | Date à laquelle s'appliqueront les critère
 $champs = "champs_example"; // string | Liste des champs demandés, séparés par des virgules
 $masquer_valeurs_nulles = true; // bool | Masque (true) ou affiche (false, par défaut) les attributs qui n'ont pas de valeur
 $facette_champ = "facette_champ_example"; // string | Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules
-$tri = true; // bool | Active ou non le tri des résultats par identifiants, par défaut false
+$tri = "tri_example"; // string | Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut
 $nombre = 56; // int | Nombre d'éléments demandés dans la réponse, défaut 20
 $debut = 56; // int | Rang du premier élément demandé dans la réponse, défaut 0
 $curseur = "curseur_example"; // string | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
@@ -230,7 +233,7 @@ Name | Type | Description  | Notes
  **champs** | **string**| Liste des champs demandés, séparés par des virgules | [optional]
  **masquer_valeurs_nulles** | **bool**| Masque (true) ou affiche (false, par défaut) les attributs qui n&#39;ont pas de valeur | [optional]
  **facette_champ** | **string**| Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules | [optional]
- **tri** | **bool**| Active ou non le tri des résultats par identifiants, par défaut false | [optional]
+ **tri** | **string**| Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siret par défaut | [optional]
  **nombre** | **int**| Nombre d&#39;éléments demandés dans la réponse, défaut 20 | [optional]
  **debut** | **int**| Rang du premier élément demandé dans la réponse, défaut 0 | [optional]
  **curseur** | **string**| Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions | [optional]
@@ -250,3 +253,59 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
+# **findSiretNonDifusiblesByQ**
+> \Sirene\Client\Model\ReponseEtablissementsNonDiffusibles findSiretNonDifusiblesByQ($q, $nombre, $debut, $curseur, $champs)
+
+Recherche sur les non diffusibles - Le service n'est plus alimenté : il est obsolète.
+
+
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Sirene\Client\Api\EtablissementApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$q = "q_example"; // string | Contenu de la requête multicritères, voir la documentation pour plus de précisions
+$nombre = 56; // int | Nombre d'éléments demandés dans la réponse, défaut 20
+$debut = 56; // int | Rang du premier élément demandé dans la réponse, défaut 0
+$curseur = "curseur_example"; // string | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
+$champs = "champs_example"; // string | Liste des champs demandés, séparés par des virgules
+
+try {
+    $result = $apiInstance->findSiretNonDifusiblesByQ($q, $nombre, $debut, $curseur, $champs);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling EtablissementApi->findSiretNonDifusiblesByQ: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **q** | **string**| Contenu de la requête multicritères, voir la documentation pour plus de précisions | [optional]
+ **nombre** | **int**| Nombre d&#39;éléments demandés dans la réponse, défaut 20 | [optional]
+ **debut** | **int**| Rang du premier élément demandé dans la réponse, défaut 0 | [optional]
+ **curseur** | **string**| Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions | [optional]
+ **champs** | **string**| Liste des champs demandés, séparés par des virgules | [optional]
+
+### Return type
+
+[**\Sirene\Client\Model\ReponseEtablissementsNonDiffusibles**](../Model/ReponseEtablissementsNonDiffusibles.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json, text/csv
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)

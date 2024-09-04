@@ -13,12 +13,12 @@
 /**
  * API Sirene
  *
- * <p>Date de la dernière modification : 31 janvier 2019</p> <p>API Sirene donne accès aux informations concernant les entreprises et les établissements immatriculés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées. La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées. Les services actuellement disponibles interrogent les unités légales (Siren) et les établissements (Siret). À venir : prédécesseurs et successeurs d'un établissement et données pluriannuelles. <h4 class=\"add-margin-top-5x\">Licence</h4> <p>La réutilisation des jeux de données mis à votre disposition à partir de la base Sirene est soumise à la licence « <a href=\"https://www.etalab.gouv.fr/licence-ouverte-open-licence\" target=\"_blank\">Licence Ouverte / Open Licence version 2.0</a> » conçue par Etalab, organisme chargé de coordonner l’action des services de l’État et de ses établissements publics pour faciliter la réutilisation la plus large possible de leurs informations publiques, via le portail interministériel <a href=\"https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/\" title=\"data.gouv.fr\" target=\"_blank\" class=\"external-link\">data.gouv.fr</a></p> <p>La base Sirene contenant des données à caractère personnel, l’Insee attire votre attention sur les obligations légales qui en découlent :</p> <ul> <li>Le traitement de ces données relève des obligations de déclaration de la Loi 78-17 du 6 janvier 1978 modifiée, dite Loi Informatique et Libertés : <a href=\"http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460\" title=\"Nouvelle fenêtre : la loi 78-17 du 6 janvier 1978 sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Loi 78-17</a></li> <li>Selon votre usage du jeu de données, il est de votre responsabilité de tenir compte du statut de diffusion le plus récent de chaque personne physique.</li> </ul> <p>En effet, selon l’<a href=\"http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=C505A51DBC1A4EB1FFF3764C69ACDB1C.tpdjo11v_1?idArticle=LEGIARTI000020165030&cidTexte=LEGITEXT000005634379&dateTexte=20100702\" title=\"Nouvelle fenêtre : l’article A123-96 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Article A123-96 du code de commerce</a> :</p> <p>\"Toute personne physique peut demander soit directement lors de ses formalités de création ou de modification, soit par lettre adressée au directeur général de l’Institut national de la statistique et des études économiques, que les informations du répertoire la concernant ne puissent être utilisées par des tiers autres que les organismes habilités au titre de l’<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000005634379&idArticle=LEGIARTI000006258837&dateTexte=&categorieLien=cid\" title=\"article R. 123-224\" target=\"_blank\" class=\"external-link\">article R. 123-224</a> ou les administrations, à des fins de prospection, notamment commerciale.\"</p> <h4 class=\"add-margin-top-5x\">Limites d'utilisation</h4> <p>L'usage d'API Sirene est soumis à une limite de 30 interrogations par minute.</p> <p>L'Insee se réserve le droit de changer cette limite en cas de nécessité.</p> <h4 class=\"add-margin-top-5x\">Droit de rectification des données du répertoire Sirene</h4> <p>L'<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000020165042&cidTexte=LEGITEXT000005634379&dateTexte=20151223\" title=\"Nouvelle fenêtre : l’article A123-90 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">article A123-90 du code de commerce</a> indique que \"Le droit d'accès prévu par l'article 39 de la loi du 6 janvier 1978 s'exerce auprès du directeur régional de l'Institut national de la statistique et des études économiques.\"</p> <h4 class=\"add-margin-top-5x\">Homologation provisoire RGS (Référentiel général de sécurité)</h4> <p>Le directeur général de l’Insee, après avoir recueilli l’avis des membres de la commission d’homologation de sécurité, atteste que le système \"API Sirene\" est protégé, conformément aux objectifs fixés par le maître d’ouvrage, pour répondre, de manière proportionnée, aux besoins de protection du système et des informations, face aux risques identifiés.</p> <p>Paris le 22 Juin 2018</p> <p>Pour le directeur général de l’Insee</p> <p>Par délégation</p> <p>Le secrétaire général de l’Insee</p>
+ * <p><span style=\"color:blue;\"> <b> 4 septembre 2024 :</b> <br>Fin d’incident. Les données Sirene sont à jour. Merci de votre compréhension.</span><br><br><p><span style=\"color:blue;\"><b>21-08-2024.<br> L’Insee modernise son portail des API, en s’appuyant sur une nouvelle architecture.</b><br> Les conditions générales d’utilisation du portail, ainsi que celles des API présentées, demeurent inchangées.<br> Sous l’URL du nouveau portail <a href=\"https://portail-api.insee.fr/\">https://portail-api.insee.fr/</a>, vous retrouvez les API de diffusion de l’Insee.<br><br>   <b>Accès à l’API Sirene.</b><br> Pour accéder à l'API Sirene, vous devez créer un compte sur le nouveau portail, puis souscrire à l'API.<br> Vous trouverez un mode d'emploi sous le lien suivant :<br> <a href=\"https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021\">https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021</a><br> Un même compte peut souscrire à plusieurs API, en suivant la même procédure.<br><br>  <b>Dans quelques semaines, l'API Sirene ne sera accessible qu'à partir de ce nouveau portail.</b></span><br><br><p><span style=\"color:blue\"><b>Sirene 4 - l'Api Sirene 3.11 devient la version de référence depuis le 30 avril 2024</b><br>Le répertoire Sirene effectue régulèrement des opérations qualité. <br>Nous vous invitons à consulter <a  href=\"https://www.sirene.fr/sirene/public/static/sirene4\"target= »_blank » >« Sirene.fr »</a> pour obtenir le détail des opérations et en suivre l’avancement. </span><br><br> <p><h4 class=\"add-margin-top-5x\"><b>Les données du répertoire Sirene depuis 1973</b></h4><p>API Sirene donne accès aux informations concernant les entreprises et les établissements enregistrés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées.</p> <p>La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées.</p>  <p>Les services actuellement disponibles interrogent :</p> <ul> <li> les unités légales (siren) </li> <li> les établissements (siret). </li> </ul> <p>Le service informations permet de connaître les dates de dernières mises à jour.</p> <p>Le service Liens de succession informe sur les prédécesseurs et les successeurs des établissements.</p> <p align=\"justify\" style=\"margin-top: 0.6cm\">Les personnes inscrites au répertoire ayant demandé à bénéficier du statut de diffusion partielle conformément à l'article R123-232-1 du code de commerce ne doivent avoir leurs informations personnelles ni rediffusées entièrement, ni utilisées à des fins de prospection. <br> Le service nonDiffusibles anciennement proposé est, depuis le 21 mars 2023, plus disponible. La modalité non diffusible \"N\" n’existe plus, et le statut de diffusion des unités antérieurement non diffusibles \"N\" a été automatiquement converti en statut de diffusion partielle , \"P\". <br>  Il n’y a donc plus d’unités non diffusibles \"N\" dans la base Sirene. De manière transitoire, le service reste encore accessible mais renvoie un code 404.<br></p> <p>La lettre <b>Sirene open data actualités</b> est destinée aux utilisateurs des données Sirene. Pour vous abonner, <a href=\"https://insee.fr/fr/information/1405555\">suivez ce lien</a>. Pour consulter les précédents numéros, <a href=\"https://insee.fr/fr/information/3711739\">cliquez ici</a>.</p>
  *
- * OpenAPI spec version: 3.6.3
- *
+ * OpenAPI spec version: 3.11
+ * 
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.5
+ * Swagger Codegen version: 2.4.43
  */
 
 /**
@@ -58,9 +58,12 @@ class Adresse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
+        'indice_repetition_dernier_numero_voie_etablisssement' => 'string',
         'complement_adresse_etablissement' => 'string',
         'numero_voie_etablissement' => 'string',
         'indice_repetition_etablissement' => 'string',
+        'dernier_numero_voie_etablissement' => 'string',
+        'indice_repetition_dernier_numero_voie_etablissement' => 'string',
         'type_voie_etablissement' => 'string',
         'libelle_voie_etablissement' => 'string',
         'code_postal_etablissement' => 'string',
@@ -71,7 +74,10 @@ class Adresse implements ModelInterface, ArrayAccess
         'code_cedex_etablissement' => 'string',
         'libelle_cedex_etablissement' => 'string',
         'code_pays_etranger_etablissement' => 'string',
-        'libelle_pays_etranger_etablissement' => 'string'
+        'libelle_pays_etranger_etablissement' => 'string',
+        'identifiant_adresse_etablissement' => 'string',
+        'coordonnee_lambert_abscisse_etablissement' => 'string',
+        'coordonnee_lambert_ordonnee_etablissement' => 'string'
     ];
 
     /**
@@ -80,9 +86,12 @@ class Adresse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
+        'indice_repetition_dernier_numero_voie_etablisssement' => null,
         'complement_adresse_etablissement' => null,
         'numero_voie_etablissement' => null,
         'indice_repetition_etablissement' => null,
+        'dernier_numero_voie_etablissement' => null,
+        'indice_repetition_dernier_numero_voie_etablissement' => null,
         'type_voie_etablissement' => null,
         'libelle_voie_etablissement' => null,
         'code_postal_etablissement' => null,
@@ -93,7 +102,10 @@ class Adresse implements ModelInterface, ArrayAccess
         'code_cedex_etablissement' => null,
         'libelle_cedex_etablissement' => null,
         'code_pays_etranger_etablissement' => null,
-        'libelle_pays_etranger_etablissement' => null
+        'libelle_pays_etranger_etablissement' => null,
+        'identifiant_adresse_etablissement' => null,
+        'coordonnee_lambert_abscisse_etablissement' => null,
+        'coordonnee_lambert_ordonnee_etablissement' => null
     ];
 
     /**
@@ -123,9 +135,12 @@ class Adresse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
+        'indice_repetition_dernier_numero_voie_etablisssement' => 'indiceRepetitionDernierNumeroVoieEtablisssement',
         'complement_adresse_etablissement' => 'complementAdresseEtablissement',
         'numero_voie_etablissement' => 'numeroVoieEtablissement',
         'indice_repetition_etablissement' => 'indiceRepetitionEtablissement',
+        'dernier_numero_voie_etablissement' => 'dernierNumeroVoieEtablissement',
+        'indice_repetition_dernier_numero_voie_etablissement' => 'indiceRepetitionDernierNumeroVoieEtablissement',
         'type_voie_etablissement' => 'typeVoieEtablissement',
         'libelle_voie_etablissement' => 'libelleVoieEtablissement',
         'code_postal_etablissement' => 'codePostalEtablissement',
@@ -136,7 +151,10 @@ class Adresse implements ModelInterface, ArrayAccess
         'code_cedex_etablissement' => 'codeCedexEtablissement',
         'libelle_cedex_etablissement' => 'libelleCedexEtablissement',
         'code_pays_etranger_etablissement' => 'codePaysEtrangerEtablissement',
-        'libelle_pays_etranger_etablissement' => 'libellePaysEtrangerEtablissement'
+        'libelle_pays_etranger_etablissement' => 'libellePaysEtrangerEtablissement',
+        'identifiant_adresse_etablissement' => 'identifiantAdresseEtablissement',
+        'coordonnee_lambert_abscisse_etablissement' => 'coordonneeLambertAbscisseEtablissement',
+        'coordonnee_lambert_ordonnee_etablissement' => 'coordonneeLambertOrdonneeEtablissement'
     ];
 
     /**
@@ -145,9 +163,12 @@ class Adresse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
+        'indice_repetition_dernier_numero_voie_etablisssement' => 'setIndiceRepetitionDernierNumeroVoieEtablisssement',
         'complement_adresse_etablissement' => 'setComplementAdresseEtablissement',
         'numero_voie_etablissement' => 'setNumeroVoieEtablissement',
         'indice_repetition_etablissement' => 'setIndiceRepetitionEtablissement',
+        'dernier_numero_voie_etablissement' => 'setDernierNumeroVoieEtablissement',
+        'indice_repetition_dernier_numero_voie_etablissement' => 'setIndiceRepetitionDernierNumeroVoieEtablissement',
         'type_voie_etablissement' => 'setTypeVoieEtablissement',
         'libelle_voie_etablissement' => 'setLibelleVoieEtablissement',
         'code_postal_etablissement' => 'setCodePostalEtablissement',
@@ -158,7 +179,10 @@ class Adresse implements ModelInterface, ArrayAccess
         'code_cedex_etablissement' => 'setCodeCedexEtablissement',
         'libelle_cedex_etablissement' => 'setLibelleCedexEtablissement',
         'code_pays_etranger_etablissement' => 'setCodePaysEtrangerEtablissement',
-        'libelle_pays_etranger_etablissement' => 'setLibellePaysEtrangerEtablissement'
+        'libelle_pays_etranger_etablissement' => 'setLibellePaysEtrangerEtablissement',
+        'identifiant_adresse_etablissement' => 'setIdentifiantAdresseEtablissement',
+        'coordonnee_lambert_abscisse_etablissement' => 'setCoordonneeLambertAbscisseEtablissement',
+        'coordonnee_lambert_ordonnee_etablissement' => 'setCoordonneeLambertOrdonneeEtablissement'
     ];
 
     /**
@@ -167,9 +191,12 @@ class Adresse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
+        'indice_repetition_dernier_numero_voie_etablisssement' => 'getIndiceRepetitionDernierNumeroVoieEtablisssement',
         'complement_adresse_etablissement' => 'getComplementAdresseEtablissement',
         'numero_voie_etablissement' => 'getNumeroVoieEtablissement',
         'indice_repetition_etablissement' => 'getIndiceRepetitionEtablissement',
+        'dernier_numero_voie_etablissement' => 'getDernierNumeroVoieEtablissement',
+        'indice_repetition_dernier_numero_voie_etablissement' => 'getIndiceRepetitionDernierNumeroVoieEtablissement',
         'type_voie_etablissement' => 'getTypeVoieEtablissement',
         'libelle_voie_etablissement' => 'getLibelleVoieEtablissement',
         'code_postal_etablissement' => 'getCodePostalEtablissement',
@@ -180,7 +207,10 @@ class Adresse implements ModelInterface, ArrayAccess
         'code_cedex_etablissement' => 'getCodeCedexEtablissement',
         'libelle_cedex_etablissement' => 'getLibelleCedexEtablissement',
         'code_pays_etranger_etablissement' => 'getCodePaysEtrangerEtablissement',
-        'libelle_pays_etranger_etablissement' => 'getLibellePaysEtrangerEtablissement'
+        'libelle_pays_etranger_etablissement' => 'getLibellePaysEtrangerEtablissement',
+        'identifiant_adresse_etablissement' => 'getIdentifiantAdresseEtablissement',
+        'coordonnee_lambert_abscisse_etablissement' => 'getCoordonneeLambertAbscisseEtablissement',
+        'coordonnee_lambert_ordonnee_etablissement' => 'getCoordonneeLambertOrdonneeEtablissement'
     ];
 
     /**
@@ -243,9 +273,12 @@ class Adresse implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
+        $this->container['indice_repetition_dernier_numero_voie_etablisssement'] = isset($data['indice_repetition_dernier_numero_voie_etablisssement']) ? $data['indice_repetition_dernier_numero_voie_etablisssement'] : null;
         $this->container['complement_adresse_etablissement'] = isset($data['complement_adresse_etablissement']) ? $data['complement_adresse_etablissement'] : null;
         $this->container['numero_voie_etablissement'] = isset($data['numero_voie_etablissement']) ? $data['numero_voie_etablissement'] : null;
         $this->container['indice_repetition_etablissement'] = isset($data['indice_repetition_etablissement']) ? $data['indice_repetition_etablissement'] : null;
+        $this->container['dernier_numero_voie_etablissement'] = isset($data['dernier_numero_voie_etablissement']) ? $data['dernier_numero_voie_etablissement'] : null;
+        $this->container['indice_repetition_dernier_numero_voie_etablissement'] = isset($data['indice_repetition_dernier_numero_voie_etablissement']) ? $data['indice_repetition_dernier_numero_voie_etablissement'] : null;
         $this->container['type_voie_etablissement'] = isset($data['type_voie_etablissement']) ? $data['type_voie_etablissement'] : null;
         $this->container['libelle_voie_etablissement'] = isset($data['libelle_voie_etablissement']) ? $data['libelle_voie_etablissement'] : null;
         $this->container['code_postal_etablissement'] = isset($data['code_postal_etablissement']) ? $data['code_postal_etablissement'] : null;
@@ -257,6 +290,9 @@ class Adresse implements ModelInterface, ArrayAccess
         $this->container['libelle_cedex_etablissement'] = isset($data['libelle_cedex_etablissement']) ? $data['libelle_cedex_etablissement'] : null;
         $this->container['code_pays_etranger_etablissement'] = isset($data['code_pays_etranger_etablissement']) ? $data['code_pays_etranger_etablissement'] : null;
         $this->container['libelle_pays_etranger_etablissement'] = isset($data['libelle_pays_etranger_etablissement']) ? $data['libelle_pays_etranger_etablissement'] : null;
+        $this->container['identifiant_adresse_etablissement'] = isset($data['identifiant_adresse_etablissement']) ? $data['identifiant_adresse_etablissement'] : null;
+        $this->container['coordonnee_lambert_abscisse_etablissement'] = isset($data['coordonnee_lambert_abscisse_etablissement']) ? $data['coordonnee_lambert_abscisse_etablissement'] : null;
+        $this->container['coordonnee_lambert_ordonnee_etablissement'] = isset($data['coordonnee_lambert_ordonnee_etablissement']) ? $data['coordonnee_lambert_ordonnee_etablissement'] : null;
     }
 
     /**
@@ -282,6 +318,30 @@ class Adresse implements ModelInterface, ArrayAccess
         return count($this->listInvalidProperties()) === 0;
     }
 
+
+    /**
+     * Gets indice_repetition_dernier_numero_voie_etablisssement
+     *
+     * @return string
+     */
+    public function getIndiceRepetitionDernierNumeroVoieEtablisssement()
+    {
+        return $this->container['indice_repetition_dernier_numero_voie_etablisssement'];
+    }
+
+    /**
+     * Sets indice_repetition_dernier_numero_voie_etablisssement
+     *
+     * @param string $indice_repetition_dernier_numero_voie_etablisssement indice_repetition_dernier_numero_voie_etablisssement
+     *
+     * @return $this
+     */
+    public function setIndiceRepetitionDernierNumeroVoieEtablisssement($indice_repetition_dernier_numero_voie_etablisssement)
+    {
+        $this->container['indice_repetition_dernier_numero_voie_etablisssement'] = $indice_repetition_dernier_numero_voie_etablisssement;
+
+        return $this;
+    }
 
     /**
      * Gets complement_adresse_etablissement
@@ -351,6 +411,54 @@ class Adresse implements ModelInterface, ArrayAccess
     public function setIndiceRepetitionEtablissement($indice_repetition_etablissement)
     {
         $this->container['indice_repetition_etablissement'] = $indice_repetition_etablissement;
+
+        return $this;
+    }
+
+    /**
+     * Gets dernier_numero_voie_etablissement
+     *
+     * @return string
+     */
+    public function getDernierNumeroVoieEtablissement()
+    {
+        return $this->container['dernier_numero_voie_etablissement'];
+    }
+
+    /**
+     * Sets dernier_numero_voie_etablissement
+     *
+     * @param string $dernier_numero_voie_etablissement Numéro de la dernière adresse dans la voie
+     *
+     * @return $this
+     */
+    public function setDernierNumeroVoieEtablissement($dernier_numero_voie_etablissement)
+    {
+        $this->container['dernier_numero_voie_etablissement'] = $dernier_numero_voie_etablissement;
+
+        return $this;
+    }
+
+    /**
+     * Gets indice_repetition_dernier_numero_voie_etablissement
+     *
+     * @return string
+     */
+    public function getIndiceRepetitionDernierNumeroVoieEtablissement()
+    {
+        return $this->container['indice_repetition_dernier_numero_voie_etablissement'];
+    }
+
+    /**
+     * Sets indice_repetition_dernier_numero_voie_etablissement
+     *
+     * @param string $indice_repetition_dernier_numero_voie_etablissement Indice de répétition de la dernière adresse dans la voie
+     *
+     * @return $this
+     */
+    public function setIndiceRepetitionDernierNumeroVoieEtablissement($indice_repetition_dernier_numero_voie_etablissement)
+    {
+        $this->container['indice_repetition_dernier_numero_voie_etablissement'] = $indice_repetition_dernier_numero_voie_etablissement;
 
         return $this;
     }
@@ -618,6 +726,78 @@ class Adresse implements ModelInterface, ArrayAccess
 
         return $this;
     }
+
+    /**
+     * Gets identifiant_adresse_etablissement
+     *
+     * @return string
+     */
+    public function getIdentifiantAdresseEtablissement()
+    {
+        return $this->container['identifiant_adresse_etablissement'];
+    }
+
+    /**
+     * Sets identifiant_adresse_etablissement
+     *
+     * @param string $identifiant_adresse_etablissement IdentifiantAdresseEtablissement
+     *
+     * @return $this
+     */
+    public function setIdentifiantAdresseEtablissement($identifiant_adresse_etablissement)
+    {
+        $this->container['identifiant_adresse_etablissement'] = $identifiant_adresse_etablissement;
+
+        return $this;
+    }
+
+    /**
+     * Gets coordonnee_lambert_abscisse_etablissement
+     *
+     * @return string
+     */
+    public function getCoordonneeLambertAbscisseEtablissement()
+    {
+        return $this->container['coordonnee_lambert_abscisse_etablissement'];
+    }
+
+    /**
+     * Sets coordonnee_lambert_abscisse_etablissement
+     *
+     * @param string $coordonnee_lambert_abscisse_etablissement coordonneeLambertAbscisseEtablissement
+     *
+     * @return $this
+     */
+    public function setCoordonneeLambertAbscisseEtablissement($coordonnee_lambert_abscisse_etablissement)
+    {
+        $this->container['coordonnee_lambert_abscisse_etablissement'] = $coordonnee_lambert_abscisse_etablissement;
+
+        return $this;
+    }
+
+    /**
+     * Gets coordonnee_lambert_ordonnee_etablissement
+     *
+     * @return string
+     */
+    public function getCoordonneeLambertOrdonneeEtablissement()
+    {
+        return $this->container['coordonnee_lambert_ordonnee_etablissement'];
+    }
+
+    /**
+     * Sets coordonnee_lambert_ordonnee_etablissement
+     *
+     * @param string $coordonnee_lambert_ordonnee_etablissement coordonneeLambertOrdonneeEtablissement
+     *
+     * @return $this
+     */
+    public function setCoordonneeLambertOrdonneeEtablissement($coordonnee_lambert_ordonnee_etablissement)
+    {
+        $this->container['coordonnee_lambert_ordonnee_etablissement'] = $coordonnee_lambert_ordonnee_etablissement;
+
+        return $this;
+    }
     /**
      * Returns true if offset exists. False otherwise.
      *
@@ -625,6 +805,7 @@ class Adresse implements ModelInterface, ArrayAccess
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -637,6 +818,7 @@ class Adresse implements ModelInterface, ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
@@ -650,6 +832,7 @@ class Adresse implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
@@ -666,6 +849,7 @@ class Adresse implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);
@@ -688,5 +872,3 @@ class Adresse implements ModelInterface, ArrayAccess
         return json_encode(ObjectSerializer::sanitizeForSerialization($this));
     }
 }
-
-

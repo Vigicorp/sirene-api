@@ -13,12 +13,12 @@
 /**
  * API Sirene
  *
- * <p>Date de la dernière modification : 31 janvier 2019</p> <p>API Sirene donne accès aux informations concernant les entreprises et les établissements immatriculés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées. La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées. Les services actuellement disponibles interrogent les unités légales (Siren) et les établissements (Siret). À venir : prédécesseurs et successeurs d'un établissement et données pluriannuelles. <h4 class=\"add-margin-top-5x\">Licence</h4> <p>La réutilisation des jeux de données mis à votre disposition à partir de la base Sirene est soumise à la licence « <a href=\"https://www.etalab.gouv.fr/licence-ouverte-open-licence\" target=\"_blank\">Licence Ouverte / Open Licence version 2.0</a> » conçue par Etalab, organisme chargé de coordonner l’action des services de l’État et de ses établissements publics pour faciliter la réutilisation la plus large possible de leurs informations publiques, via le portail interministériel <a href=\"https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/\" title=\"data.gouv.fr\" target=\"_blank\" class=\"external-link\">data.gouv.fr</a></p> <p>La base Sirene contenant des données à caractère personnel, l’Insee attire votre attention sur les obligations légales qui en découlent :</p> <ul> <li>Le traitement de ces données relève des obligations de déclaration de la Loi 78-17 du 6 janvier 1978 modifiée, dite Loi Informatique et Libertés : <a href=\"http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460\" title=\"Nouvelle fenêtre : la loi 78-17 du 6 janvier 1978 sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Loi 78-17</a></li> <li>Selon votre usage du jeu de données, il est de votre responsabilité de tenir compte du statut de diffusion le plus récent de chaque personne physique.</li> </ul> <p>En effet, selon l’<a href=\"http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=C505A51DBC1A4EB1FFF3764C69ACDB1C.tpdjo11v_1?idArticle=LEGIARTI000020165030&cidTexte=LEGITEXT000005634379&dateTexte=20100702\" title=\"Nouvelle fenêtre : l’article A123-96 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">Article A123-96 du code de commerce</a> :</p> <p>\"Toute personne physique peut demander soit directement lors de ses formalités de création ou de modification, soit par lettre adressée au directeur général de l’Institut national de la statistique et des études économiques, que les informations du répertoire la concernant ne puissent être utilisées par des tiers autres que les organismes habilités au titre de l’<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000005634379&idArticle=LEGIARTI000006258837&dateTexte=&categorieLien=cid\" title=\"article R. 123-224\" target=\"_blank\" class=\"external-link\">article R. 123-224</a> ou les administrations, à des fins de prospection, notamment commerciale.\"</p> <h4 class=\"add-margin-top-5x\">Limites d'utilisation</h4> <p>L'usage d'API Sirene est soumis à une limite de 30 interrogations par minute.</p> <p>L'Insee se réserve le droit de changer cette limite en cas de nécessité.</p> <h4 class=\"add-margin-top-5x\">Droit de rectification des données du répertoire Sirene</h4> <p>L'<a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000020165042&cidTexte=LEGITEXT000005634379&dateTexte=20151223\" title=\"Nouvelle fenêtre : l’article A123-90 du code de commerce sur legifrance.gouv.fr\" target=\"_blank\" class=\"external-link\">article A123-90 du code de commerce</a> indique que \"Le droit d'accès prévu par l'article 39 de la loi du 6 janvier 1978 s'exerce auprès du directeur régional de l'Institut national de la statistique et des études économiques.\"</p> <h4 class=\"add-margin-top-5x\">Homologation provisoire RGS (Référentiel général de sécurité)</h4> <p>Le directeur général de l’Insee, après avoir recueilli l’avis des membres de la commission d’homologation de sécurité, atteste que le système \"API Sirene\" est protégé, conformément aux objectifs fixés par le maître d’ouvrage, pour répondre, de manière proportionnée, aux besoins de protection du système et des informations, face aux risques identifiés.</p> <p>Paris le 22 Juin 2018</p> <p>Pour le directeur général de l’Insee</p> <p>Par délégation</p> <p>Le secrétaire général de l’Insee</p>
+ * <p><span style=\"color:blue;\"> <b> 4 septembre 2024 :</b> <br>Fin d’incident. Les données Sirene sont à jour. Merci de votre compréhension.</span><br><br><p><span style=\"color:blue;\"><b>21-08-2024.<br> L’Insee modernise son portail des API, en s’appuyant sur une nouvelle architecture.</b><br> Les conditions générales d’utilisation du portail, ainsi que celles des API présentées, demeurent inchangées.<br> Sous l’URL du nouveau portail <a href=\"https://portail-api.insee.fr/\">https://portail-api.insee.fr/</a>, vous retrouvez les API de diffusion de l’Insee.<br><br>   <b>Accès à l’API Sirene.</b><br> Pour accéder à l'API Sirene, vous devez créer un compte sur le nouveau portail, puis souscrire à l'API.<br> Vous trouverez un mode d'emploi sous le lien suivant :<br> <a href=\"https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021\">https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=52d26f24-963b-4fc0-926f-24963b4fc021</a><br> Un même compte peut souscrire à plusieurs API, en suivant la même procédure.<br><br>  <b>Dans quelques semaines, l'API Sirene ne sera accessible qu'à partir de ce nouveau portail.</b></span><br><br><p><span style=\"color:blue\"><b>Sirene 4 - l'Api Sirene 3.11 devient la version de référence depuis le 30 avril 2024</b><br>Le répertoire Sirene effectue régulèrement des opérations qualité. <br>Nous vous invitons à consulter <a  href=\"https://www.sirene.fr/sirene/public/static/sirene4\"target= »_blank » >« Sirene.fr »</a> pour obtenir le détail des opérations et en suivre l’avancement. </span><br><br> <p><h4 class=\"add-margin-top-5x\"><b>Les données du répertoire Sirene depuis 1973</b></h4><p>API Sirene donne accès aux informations concernant les entreprises et les établissements enregistrés au répertoire interadministratif Sirene depuis sa création en 1973, y compris les unités fermées.</p> <p>La recherche peut être unitaire, multicritère, phonétique et porter sur les données courantes et historisées.</p>  <p>Les services actuellement disponibles interrogent :</p> <ul> <li> les unités légales (siren) </li> <li> les établissements (siret). </li> </ul> <p>Le service informations permet de connaître les dates de dernières mises à jour.</p> <p>Le service Liens de succession informe sur les prédécesseurs et les successeurs des établissements.</p> <p align=\"justify\" style=\"margin-top: 0.6cm\">Les personnes inscrites au répertoire ayant demandé à bénéficier du statut de diffusion partielle conformément à l'article R123-232-1 du code de commerce ne doivent avoir leurs informations personnelles ni rediffusées entièrement, ni utilisées à des fins de prospection. <br> Le service nonDiffusibles anciennement proposé est, depuis le 21 mars 2023, plus disponible. La modalité non diffusible \"N\" n’existe plus, et le statut de diffusion des unités antérieurement non diffusibles \"N\" a été automatiquement converti en statut de diffusion partielle , \"P\". <br>  Il n’y a donc plus d’unités non diffusibles \"N\" dans la base Sirene. De manière transitoire, le service reste encore accessible mais renvoie un code 404.<br></p> <p>La lettre <b>Sirene open data actualités</b> est destinée aux utilisateurs des données Sirene. Pour vous abonner, <a href=\"https://insee.fr/fr/information/1405555\">suivez ce lien</a>. Pour consulter les précédents numéros, <a href=\"https://insee.fr/fr/information/3711739\">cliquez ici</a>.</p>
  *
- * OpenAPI spec version: 3.6.3
- *
+ * OpenAPI spec version: 3.11
+ * 
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.5
+ * Swagger Codegen version: 2.4.43
  */
 
 /**
@@ -58,27 +58,19 @@ class UniteLegale implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
+        'periodes_unite_legale' => '\Sirene\Client\Model\PeriodeUniteLegale[]',
         'score' => 'float',
         'siren' => 'string',
         'statut_diffusion_unite_legale' => 'string',
         'unite_purgee_unite_legale' => 'bool',
         'date_creation_unite_legale' => 'string',
-        'sigle_unite_legale' => 'string',
-        'sexe_unite_legale' => 'string',
-        'prenom1_unite_legale' => 'string',
-        'prenom2_unite_legale' => 'string',
-        'prenom3_unite_legale' => 'string',
-        'prenom4_unite_legale' => 'string',
-        'prenom_usuel_unite_legale' => 'string',
-        'pseudonyme_unite_legale' => 'string',
         'identifiant_association_unite_legale' => 'string',
         'tranche_effectifs_unite_legale' => 'string',
         'annee_effectifs_unite_legale' => 'string',
         'date_dernier_traitement_unite_legale' => 'string',
         'nombre_periodes_unite_legale' => 'int',
         'categorie_entreprise' => 'string',
-        'annee_categorie_entreprise' => 'string',
-        'periodes_unite_legale' => '\Sirene\Client\Model\PeriodeUniteLegale[]'
+        'annee_categorie_entreprise' => 'string'
     ];
 
     /**
@@ -87,27 +79,19 @@ class UniteLegale implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
+        'periodes_unite_legale' => null,
         'score' => 'float',
         'siren' => null,
         'statut_diffusion_unite_legale' => null,
         'unite_purgee_unite_legale' => null,
         'date_creation_unite_legale' => null,
-        'sigle_unite_legale' => null,
-        'sexe_unite_legale' => null,
-        'prenom1_unite_legale' => null,
-        'prenom2_unite_legale' => null,
-        'prenom3_unite_legale' => null,
-        'prenom4_unite_legale' => null,
-        'prenom_usuel_unite_legale' => null,
-        'pseudonyme_unite_legale' => null,
         'identifiant_association_unite_legale' => null,
         'tranche_effectifs_unite_legale' => null,
         'annee_effectifs_unite_legale' => null,
         'date_dernier_traitement_unite_legale' => null,
         'nombre_periodes_unite_legale' => 'int32',
         'categorie_entreprise' => null,
-        'annee_categorie_entreprise' => null,
-        'periodes_unite_legale' => null
+        'annee_categorie_entreprise' => null
     ];
 
     /**
@@ -137,27 +121,19 @@ class UniteLegale implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
+        'periodes_unite_legale' => 'periodesUniteLegale',
         'score' => 'score',
         'siren' => 'siren',
         'statut_diffusion_unite_legale' => 'statutDiffusionUniteLegale',
         'unite_purgee_unite_legale' => 'unitePurgeeUniteLegale',
         'date_creation_unite_legale' => 'dateCreationUniteLegale',
-        'sigle_unite_legale' => 'sigleUniteLegale',
-        'sexe_unite_legale' => 'sexeUniteLegale',
-        'prenom1_unite_legale' => 'prenom1UniteLegale',
-        'prenom2_unite_legale' => 'prenom2UniteLegale',
-        'prenom3_unite_legale' => 'prenom3UniteLegale',
-        'prenom4_unite_legale' => 'prenom4UniteLegale',
-        'prenom_usuel_unite_legale' => 'prenomUsuelUniteLegale',
-        'pseudonyme_unite_legale' => 'pseudonymeUniteLegale',
         'identifiant_association_unite_legale' => 'identifiantAssociationUniteLegale',
         'tranche_effectifs_unite_legale' => 'trancheEffectifsUniteLegale',
         'annee_effectifs_unite_legale' => 'anneeEffectifsUniteLegale',
         'date_dernier_traitement_unite_legale' => 'dateDernierTraitementUniteLegale',
         'nombre_periodes_unite_legale' => 'nombrePeriodesUniteLegale',
         'categorie_entreprise' => 'categorieEntreprise',
-        'annee_categorie_entreprise' => 'anneeCategorieEntreprise',
-        'periodes_unite_legale' => 'periodesUniteLegale'
+        'annee_categorie_entreprise' => 'anneeCategorieEntreprise'
     ];
 
     /**
@@ -166,27 +142,19 @@ class UniteLegale implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
+        'periodes_unite_legale' => 'setPeriodesUniteLegale',
         'score' => 'setScore',
         'siren' => 'setSiren',
         'statut_diffusion_unite_legale' => 'setStatutDiffusionUniteLegale',
         'unite_purgee_unite_legale' => 'setUnitePurgeeUniteLegale',
         'date_creation_unite_legale' => 'setDateCreationUniteLegale',
-        'sigle_unite_legale' => 'setSigleUniteLegale',
-        'sexe_unite_legale' => 'setSexeUniteLegale',
-        'prenom1_unite_legale' => 'setPrenom1UniteLegale',
-        'prenom2_unite_legale' => 'setPrenom2UniteLegale',
-        'prenom3_unite_legale' => 'setPrenom3UniteLegale',
-        'prenom4_unite_legale' => 'setPrenom4UniteLegale',
-        'prenom_usuel_unite_legale' => 'setPrenomUsuelUniteLegale',
-        'pseudonyme_unite_legale' => 'setPseudonymeUniteLegale',
         'identifiant_association_unite_legale' => 'setIdentifiantAssociationUniteLegale',
         'tranche_effectifs_unite_legale' => 'setTrancheEffectifsUniteLegale',
         'annee_effectifs_unite_legale' => 'setAnneeEffectifsUniteLegale',
         'date_dernier_traitement_unite_legale' => 'setDateDernierTraitementUniteLegale',
         'nombre_periodes_unite_legale' => 'setNombrePeriodesUniteLegale',
         'categorie_entreprise' => 'setCategorieEntreprise',
-        'annee_categorie_entreprise' => 'setAnneeCategorieEntreprise',
-        'periodes_unite_legale' => 'setPeriodesUniteLegale'
+        'annee_categorie_entreprise' => 'setAnneeCategorieEntreprise'
     ];
 
     /**
@@ -195,27 +163,19 @@ class UniteLegale implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
+        'periodes_unite_legale' => 'getPeriodesUniteLegale',
         'score' => 'getScore',
         'siren' => 'getSiren',
         'statut_diffusion_unite_legale' => 'getStatutDiffusionUniteLegale',
         'unite_purgee_unite_legale' => 'getUnitePurgeeUniteLegale',
         'date_creation_unite_legale' => 'getDateCreationUniteLegale',
-        'sigle_unite_legale' => 'getSigleUniteLegale',
-        'sexe_unite_legale' => 'getSexeUniteLegale',
-        'prenom1_unite_legale' => 'getPrenom1UniteLegale',
-        'prenom2_unite_legale' => 'getPrenom2UniteLegale',
-        'prenom3_unite_legale' => 'getPrenom3UniteLegale',
-        'prenom4_unite_legale' => 'getPrenom4UniteLegale',
-        'prenom_usuel_unite_legale' => 'getPrenomUsuelUniteLegale',
-        'pseudonyme_unite_legale' => 'getPseudonymeUniteLegale',
         'identifiant_association_unite_legale' => 'getIdentifiantAssociationUniteLegale',
         'tranche_effectifs_unite_legale' => 'getTrancheEffectifsUniteLegale',
         'annee_effectifs_unite_legale' => 'getAnneeEffectifsUniteLegale',
         'date_dernier_traitement_unite_legale' => 'getDateDernierTraitementUniteLegale',
         'nombre_periodes_unite_legale' => 'getNombrePeriodesUniteLegale',
         'categorie_entreprise' => 'getCategorieEntreprise',
-        'annee_categorie_entreprise' => 'getAnneeCategorieEntreprise',
-        'periodes_unite_legale' => 'getPeriodesUniteLegale'
+        'annee_categorie_entreprise' => 'getAnneeCategorieEntreprise'
     ];
 
     /**
@@ -259,29 +219,12 @@ class UniteLegale implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
-    const SEXE_UNITE_LEGALE_M = 'M';
-    const SEXE_UNITE_LEGALE_F = 'F';
-    const SEXE_UNITE_LEGALE_NULL = 'null';
     const CATEGORIE_ENTREPRISE_PME = 'PME';
     const CATEGORIE_ENTREPRISE_ETI = 'ETI';
     const CATEGORIE_ENTREPRISE_GE = 'GE';
     const CATEGORIE_ENTREPRISE_NULL = 'null';
     
 
-    
-    /**
-     * Gets allowable values of the enum
-     *
-     * @return string[]
-     */
-    public function getSexeUniteLegaleAllowableValues()
-    {
-        return [
-            self::SEXE_UNITE_LEGALE_M,
-            self::SEXE_UNITE_LEGALE_F,
-            self::SEXE_UNITE_LEGALE_NULL,
-        ];
-    }
     
     /**
      * Gets allowable values of the enum
@@ -314,19 +257,12 @@ class UniteLegale implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
+        $this->container['periodes_unite_legale'] = isset($data['periodes_unite_legale']) ? $data['periodes_unite_legale'] : null;
         $this->container['score'] = isset($data['score']) ? $data['score'] : null;
         $this->container['siren'] = isset($data['siren']) ? $data['siren'] : null;
         $this->container['statut_diffusion_unite_legale'] = isset($data['statut_diffusion_unite_legale']) ? $data['statut_diffusion_unite_legale'] : null;
         $this->container['unite_purgee_unite_legale'] = isset($data['unite_purgee_unite_legale']) ? $data['unite_purgee_unite_legale'] : null;
         $this->container['date_creation_unite_legale'] = isset($data['date_creation_unite_legale']) ? $data['date_creation_unite_legale'] : null;
-        $this->container['sigle_unite_legale'] = isset($data['sigle_unite_legale']) ? $data['sigle_unite_legale'] : null;
-        $this->container['sexe_unite_legale'] = isset($data['sexe_unite_legale']) ? $data['sexe_unite_legale'] : null;
-        $this->container['prenom1_unite_legale'] = isset($data['prenom1_unite_legale']) ? $data['prenom1_unite_legale'] : null;
-        $this->container['prenom2_unite_legale'] = isset($data['prenom2_unite_legale']) ? $data['prenom2_unite_legale'] : null;
-        $this->container['prenom3_unite_legale'] = isset($data['prenom3_unite_legale']) ? $data['prenom3_unite_legale'] : null;
-        $this->container['prenom4_unite_legale'] = isset($data['prenom4_unite_legale']) ? $data['prenom4_unite_legale'] : null;
-        $this->container['prenom_usuel_unite_legale'] = isset($data['prenom_usuel_unite_legale']) ? $data['prenom_usuel_unite_legale'] : null;
-        $this->container['pseudonyme_unite_legale'] = isset($data['pseudonyme_unite_legale']) ? $data['pseudonyme_unite_legale'] : null;
         $this->container['identifiant_association_unite_legale'] = isset($data['identifiant_association_unite_legale']) ? $data['identifiant_association_unite_legale'] : null;
         $this->container['tranche_effectifs_unite_legale'] = isset($data['tranche_effectifs_unite_legale']) ? $data['tranche_effectifs_unite_legale'] : null;
         $this->container['annee_effectifs_unite_legale'] = isset($data['annee_effectifs_unite_legale']) ? $data['annee_effectifs_unite_legale'] : null;
@@ -334,7 +270,6 @@ class UniteLegale implements ModelInterface, ArrayAccess
         $this->container['nombre_periodes_unite_legale'] = isset($data['nombre_periodes_unite_legale']) ? $data['nombre_periodes_unite_legale'] : null;
         $this->container['categorie_entreprise'] = isset($data['categorie_entreprise']) ? $data['categorie_entreprise'] : null;
         $this->container['annee_categorie_entreprise'] = isset($data['annee_categorie_entreprise']) ? $data['annee_categorie_entreprise'] : null;
-        $this->container['periodes_unite_legale'] = isset($data['periodes_unite_legale']) ? $data['periodes_unite_legale'] : null;
     }
 
     /**
@@ -345,14 +280,6 @@ class UniteLegale implements ModelInterface, ArrayAccess
     public function listInvalidProperties()
     {
         $invalidProperties = [];
-
-        $allowedValues = $this->getSexeUniteLegaleAllowableValues();
-        if (!is_null($this->container['sexe_unite_legale']) && !in_array($this->container['sexe_unite_legale'], $allowedValues, true)) {
-            $invalidProperties[] = sprintf(
-                "invalid value for 'sexe_unite_legale', must be one of '%s'",
-                implode("', '", $allowedValues)
-            );
-        }
 
         $allowedValues = $this->getCategorieEntrepriseAllowableValues();
         if (!is_null($this->container['categorie_entreprise']) && !in_array($this->container['categorie_entreprise'], $allowedValues, true)) {
@@ -376,6 +303,30 @@ class UniteLegale implements ModelInterface, ArrayAccess
         return count($this->listInvalidProperties()) === 0;
     }
 
+
+    /**
+     * Gets periodes_unite_legale
+     *
+     * @return \Sirene\Client\Model\PeriodeUniteLegale[]
+     */
+    public function getPeriodesUniteLegale()
+    {
+        return $this->container['periodes_unite_legale'];
+    }
+
+    /**
+     * Sets periodes_unite_legale
+     *
+     * @param \Sirene\Client\Model\PeriodeUniteLegale[] $periodes_unite_legale periodes_unite_legale
+     *
+     * @return $this
+     */
+    public function setPeriodesUniteLegale($periodes_unite_legale)
+    {
+        $this->container['periodes_unite_legale'] = $periodes_unite_legale;
+
+        return $this;
+    }
 
     /**
      * Gets score
@@ -498,207 +449,6 @@ class UniteLegale implements ModelInterface, ArrayAccess
     }
 
     /**
-     * Gets sigle_unite_legale
-     *
-     * @return string
-     */
-    public function getSigleUniteLegale()
-    {
-        return $this->container['sigle_unite_legale'];
-    }
-
-    /**
-     * Sets sigle_unite_legale
-     *
-     * @param string $sigle_unite_legale Sigle de l'unité légale
-     *
-     * @return $this
-     */
-    public function setSigleUniteLegale($sigle_unite_legale)
-    {
-        $this->container['sigle_unite_legale'] = $sigle_unite_legale;
-
-        return $this;
-    }
-
-    /**
-     * Gets sexe_unite_legale
-     *
-     * @return string
-     */
-    public function getSexeUniteLegale()
-    {
-        return $this->container['sexe_unite_legale'];
-    }
-
-    /**
-     * Sets sexe_unite_legale
-     *
-     * @param string $sexe_unite_legale Sexe pour les personnes physiques sinon null
-     *
-     * @return $this
-     */
-    public function setSexeUniteLegale($sexe_unite_legale)
-    {
-        $allowedValues = $this->getSexeUniteLegaleAllowableValues();
-        if (!is_null($sexe_unite_legale) && !in_array($sexe_unite_legale, $allowedValues, true)) {
-            throw new \InvalidArgumentException(
-                sprintf(
-                    "Invalid value for 'sexe_unite_legale', must be one of '%s'",
-                    implode("', '", $allowedValues)
-                )
-            );
-        }
-        $this->container['sexe_unite_legale'] = $sexe_unite_legale;
-
-        return $this;
-    }
-
-    /**
-     * Gets prenom1_unite_legale
-     *
-     * @return string
-     */
-    public function getPrenom1UniteLegale()
-    {
-        return $this->container['prenom1_unite_legale'];
-    }
-
-    /**
-     * Sets prenom1_unite_legale
-     *
-     * @param string $prenom1_unite_legale Premier prénom déclaré pour une personne physique, peut être null dans le cas d'une unité purgée
-     *
-     * @return $this
-     */
-    public function setPrenom1UniteLegale($prenom1_unite_legale)
-    {
-        $this->container['prenom1_unite_legale'] = $prenom1_unite_legale;
-
-        return $this;
-    }
-
-    /**
-     * Gets prenom2_unite_legale
-     *
-     * @return string
-     */
-    public function getPrenom2UniteLegale()
-    {
-        return $this->container['prenom2_unite_legale'];
-    }
-
-    /**
-     * Sets prenom2_unite_legale
-     *
-     * @param string $prenom2_unite_legale Deuxième prénom déclaré pour une personne physique
-     *
-     * @return $this
-     */
-    public function setPrenom2UniteLegale($prenom2_unite_legale)
-    {
-        $this->container['prenom2_unite_legale'] = $prenom2_unite_legale;
-
-        return $this;
-    }
-
-    /**
-     * Gets prenom3_unite_legale
-     *
-     * @return string
-     */
-    public function getPrenom3UniteLegale()
-    {
-        return $this->container['prenom3_unite_legale'];
-    }
-
-    /**
-     * Sets prenom3_unite_legale
-     *
-     * @param string $prenom3_unite_legale Troisième prénom déclaré pour une personne physique
-     *
-     * @return $this
-     */
-    public function setPrenom3UniteLegale($prenom3_unite_legale)
-    {
-        $this->container['prenom3_unite_legale'] = $prenom3_unite_legale;
-
-        return $this;
-    }
-
-    /**
-     * Gets prenom4_unite_legale
-     *
-     * @return string
-     */
-    public function getPrenom4UniteLegale()
-    {
-        return $this->container['prenom4_unite_legale'];
-    }
-
-    /**
-     * Sets prenom4_unite_legale
-     *
-     * @param string $prenom4_unite_legale Quatrième prénom déclaré pour une personne physique
-     *
-     * @return $this
-     */
-    public function setPrenom4UniteLegale($prenom4_unite_legale)
-    {
-        $this->container['prenom4_unite_legale'] = $prenom4_unite_legale;
-
-        return $this;
-    }
-
-    /**
-     * Gets prenom_usuel_unite_legale
-     *
-     * @return string
-     */
-    public function getPrenomUsuelUniteLegale()
-    {
-        return $this->container['prenom_usuel_unite_legale'];
-    }
-
-    /**
-     * Sets prenom_usuel_unite_legale
-     *
-     * @param string $prenom_usuel_unite_legale Prénom usuel pour les personne physiques, correspond généralement au Prenom1
-     *
-     * @return $this
-     */
-    public function setPrenomUsuelUniteLegale($prenom_usuel_unite_legale)
-    {
-        $this->container['prenom_usuel_unite_legale'] = $prenom_usuel_unite_legale;
-
-        return $this;
-    }
-
-    /**
-     * Gets pseudonyme_unite_legale
-     *
-     * @return string
-     */
-    public function getPseudonymeUniteLegale()
-    {
-        return $this->container['pseudonyme_unite_legale'];
-    }
-
-    /**
-     * Sets pseudonyme_unite_legale
-     *
-     * @param string $pseudonyme_unite_legale Pseudonyme pour les personnes physiques
-     *
-     * @return $this
-     */
-    public function setPseudonymeUniteLegale($pseudonyme_unite_legale)
-    {
-        $this->container['pseudonyme_unite_legale'] = $pseudonyme_unite_legale;
-
-        return $this;
-    }
-
-    /**
      * Gets identifiant_association_unite_legale
      *
      * @return string
@@ -783,7 +533,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
     /**
      * Sets date_dernier_traitement_unite_legale
      *
-     * @param string $date_dernier_traitement_unite_legale Date de la dernière mise à jour effectuée au répertoire Sirene sur le Siren concerné, format AAAA-MM-JJTHH:MM:SS
+     * @param string $date_dernier_traitement_unite_legale Date de la dernière mise à jour effectuée au répertoire Sirene sur le Siren concerné, format AAAA-MM-JJTHH:MM:SS.MMM
      *
      * @return $this
      */
@@ -874,30 +624,6 @@ class UniteLegale implements ModelInterface, ArrayAccess
 
         return $this;
     }
-
-    /**
-     * Gets periodes_unite_legale
-     *
-     * @return \Sirene\Client\Model\PeriodeUniteLegale[]
-     */
-    public function getPeriodesUniteLegale()
-    {
-        return $this->container['periodes_unite_legale'];
-    }
-
-    /**
-     * Sets periodes_unite_legale
-     *
-     * @param \Sirene\Client\Model\PeriodeUniteLegale[] $periodes_unite_legale periodes_unite_legale
-     *
-     * @return $this
-     */
-    public function setPeriodesUniteLegale($periodes_unite_legale)
-    {
-        $this->container['periodes_unite_legale'] = $periodes_unite_legale;
-
-        return $this;
-    }
     /**
      * Returns true if offset exists. False otherwise.
      *
@@ -905,6 +631,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -917,6 +644,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
@@ -930,6 +658,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
@@ -946,6 +675,7 @@ class UniteLegale implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);
@@ -968,5 +698,3 @@ class UniteLegale implements ModelInterface, ArrayAccess
         return json_encode(ObjectSerializer::sanitizeForSerialization($this));
     }
 }
-
-

@@ -3,9 +3,12 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**indice_repetition_dernier_numero_voie_etablisssement** | **string** |  | [optional] 
 **complement_adresse_etablissement** | **string** | Complément d&#39;adresse de l&#39;établissement | [optional] 
 **numero_voie_etablissement** | **string** | Numéro dans la voie | [optional] 
 **indice_repetition_etablissement** | **string** | Indice de répétition dans la voie | [optional] 
+**dernier_numero_voie_etablissement** | **string** | Numéro de la dernière adresse dans la voie | [optional] 
+**indice_repetition_dernier_numero_voie_etablissement** | **string** | Indice de répétition de la dernière adresse dans la voie | [optional] 
 **type_voie_etablissement** | **string** | Type de la voie | [optional] 
 **libelle_voie_etablissement** | **string** | Libellé de la voie | [optional] 
 **code_postal_etablissement** | **string** | Code postal | [optional] 
@@ -17,6 +20,9 @@ Name | Type | Description | Notes
 **libelle_cedex_etablissement** | **string** | Libellé correspondant au numéro de Cedex (variable codeCedexEtablissement) | [optional] 
 **code_pays_etranger_etablissement** | **string** | Code pays pour les établissements situés à l’étranger | [optional] 
 **libelle_pays_etranger_etablissement** | **string** | Libellé du pays pour les adresses à l’étranger | [optional] 
+**identifiant_adresse_etablissement** | **string** | IdentifiantAdresseEtablissement | [optional] 
+**coordonnee_lambert_abscisse_etablissement** | **string** | coordonneeLambertAbscisseEtablissement | [optional] 
+**coordonnee_lambert_ordonnee_etablissement** | **string** | coordonneeLambertOrdonneeEtablissement | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
