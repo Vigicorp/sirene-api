@@ -1,19 +1,19 @@
 {
-    "name": "git_user_id/git_repo_id",
+    "name": "vigicorp/sirene-api",
     "description": "",
     "keywords": [
         "swagger",
         "php",
         "sdk",
-        "rest",
-        "api"
+        "api",
+        "sirene"
     ],
-    "homepage": "http://swagger.io",
-    "license": "proprietary",
+    "homepage": "https://github.com/Vigicorp/sirene-api",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "PastisD",
+            "homepage": "https://github.com/PastisD"
         }
     ],
     "require": {
@@ -29,9 +29,9 @@
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": { "Sirene\\Client\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": { "Sirene\\Client\\" : "test/" }
     }
 }
