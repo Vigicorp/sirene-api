@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**header** | [**\Swagger\Client\Model\Header**](Header.md) |  | [optional] 
+**header** | [**\Sirene\Client\Model\Header**](Header.md) |  | [optional] 
 **etat_service** | [****](.md) | État actuel du service | [optional] 
 **etats_des_services** | [****](.md) | Etats des services | [optional] 
 **version_service** | [****](.md) | Numéro de la version | [optional] 

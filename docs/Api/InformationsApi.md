@@ -1,4 +1,4 @@
-# Swagger\Client\InformationsApi
+# Sirene\Client\InformationsApi
 
 All URIs are relative to *https://api.insee.fr/api-sirene/3.11*
 
@@ -7,7 +7,7 @@ Method | HTTP request | Description
 [**informations**](InformationsApi.md#informations) | **GET** /informations | État du service, dates de mise à jour et numéro de version
 
 # **informations**
-> \Swagger\Client\Model\ReponseInformations informations()
+> \Sirene\Client\Model\ReponseInformations informations()
 
 État du service, dates de mise à jour et numéro de version
 
@@ -16,11 +16,11 @@ Method | HTTP request | Description
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: ApiKeyAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
+$config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
+// $config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\InformationsApi(
+$apiInstance = new Sirene\Client\Api\InformationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -41,7 +41,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseInformations**](../Model/ReponseInformations.md)
+[**\Sirene\Client\Model\ReponseInformations**](../Model/ReponseInformations.md)
 
 ### Authorization
 

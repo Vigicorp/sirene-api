@@ -1,4 +1,4 @@
-# Swagger\Client\EtablissementApi
+# Sirene\Client\EtablissementApi
 
 All URIs are relative to *https://api.insee.fr/api-sirene/3.11*
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 [**findLienSuccession**](EtablissementApi.md#findliensuccession) | **GET** /siret/liensSuccession | Recherche multicritère sur les liens de succession
 
 # **findByGetEtablissement**
-> \Swagger\Client\Model\ReponseEtablissements findByGetEtablissement($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
+> \Sirene\Client\Model\ReponseEtablissements findByGetEtablissement($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur)
 
 Recherche multicritère d'établissements
 
@@ -19,25 +19,25 @@ Recherche multicritère d'établissements
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: ApiKeyAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
+$config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
+// $config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\EtablissementApi(
+$apiInstance = new Sirene\Client\Api\EtablissementApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$q = new \Swagger\Client\Model\null(); //  | Contenu de la requête multicritères, voir la documentation pour plus de précisions
-$date = new \Swagger\Client\Model\null(); //  | Date à laquelle on veut obtenir les valeurs des données historisées
-$champs = new \Swagger\Client\Model\null(); //  | Liste des champs demandés, séparés par des virgules
-$masquer_valeurs_nulles = new \Swagger\Client\Model\null(); //  | Masque (true) ou affiche (false, par défaut) les attributs qui n'ont pas de valeur
-$facette_champ = new \Swagger\Client\Model\null(); //  | Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules
-$tri = new \Swagger\Client\Model\null(); //  | Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siren par défaut
-$nombre = new \Swagger\Client\Model\null(); //  | Nombre d'éléments demandés dans la réponse, défaut 20
-$debut = new \Swagger\Client\Model\null(); //  | Rang du premier élément demandé dans la réponse, défaut 0
-$curseur = new \Swagger\Client\Model\null(); //  | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
+$q = new \Sirene\Client\Model\null(); //  | Contenu de la requête multicritères, voir la documentation pour plus de précisions
+$date = new \Sirene\Client\Model\null(); //  | Date à laquelle on veut obtenir les valeurs des données historisées
+$champs = new \Sirene\Client\Model\null(); //  | Liste des champs demandés, séparés par des virgules
+$masquer_valeurs_nulles = new \Sirene\Client\Model\null(); //  | Masque (true) ou affiche (false, par défaut) les attributs qui n'ont pas de valeur
+$facette_champ = new \Sirene\Client\Model\null(); //  | Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules
+$tri = new \Sirene\Client\Model\null(); //  | Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siren par défaut
+$nombre = new \Sirene\Client\Model\null(); //  | Nombre d'éléments demandés dans la réponse, défaut 20
+$debut = new \Sirene\Client\Model\null(); //  | Rang du premier élément demandé dans la réponse, défaut 0
+$curseur = new \Sirene\Client\Model\null(); //  | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
 
 try {
     $result = $apiInstance->findByGetEtablissement($q, $date, $champs, $masquer_valeurs_nulles, $facette_champ, $tri, $nombre, $debut, $curseur);
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
+[**\Sirene\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findByPostEtablissement**
-> \Swagger\Client\Model\ReponseEtablissements findByPostEtablissement($q, $date, $champs, $nombre, $debut, $masquer_valeurs_nulles, $tri, $curseur, $facette_champ)
+> \Sirene\Client\Model\ReponseEtablissements findByPostEtablissement($q, $date, $champs, $nombre, $debut, $masquer_valeurs_nulles, $tri, $curseur, $facette_champ)
 
 Recherche multicritère d'établissements
 
@@ -87,25 +87,25 @@ Recherche multicritère d'établissements
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: ApiKeyAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
+$config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
+// $config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\EtablissementApi(
+$apiInstance = new Sirene\Client\Api\EtablissementApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$q = new \Swagger\Client\Model\null(); //  | 
-$date = new \Swagger\Client\Model\null(); //  | 
-$champs = new \Swagger\Client\Model\null(); //  | 
-$nombre = new \Swagger\Client\Model\null(); //  | 
-$debut = new \Swagger\Client\Model\null(); //  | 
-$masquer_valeurs_nulles = new \Swagger\Client\Model\null(); //  | 
-$tri = new \Swagger\Client\Model\null(); //  | 
-$curseur = new \Swagger\Client\Model\null(); //  | 
-$facette_champ = new \Swagger\Client\Model\null(); //  | 
+$q = new \Sirene\Client\Model\null(); //  | 
+$date = new \Sirene\Client\Model\null(); //  | 
+$champs = new \Sirene\Client\Model\null(); //  | 
+$nombre = new \Sirene\Client\Model\null(); //  | 
+$debut = new \Sirene\Client\Model\null(); //  | 
+$masquer_valeurs_nulles = new \Sirene\Client\Model\null(); //  | 
+$tri = new \Sirene\Client\Model\null(); //  | 
+$curseur = new \Sirene\Client\Model\null(); //  | 
+$facette_champ = new \Sirene\Client\Model\null(); //  | 
 
 try {
     $result = $apiInstance->findByPostEtablissement($q, $date, $champs, $nombre, $debut, $masquer_valeurs_nulles, $tri, $curseur, $facette_champ);
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
+[**\Sirene\Client\Model\ReponseEtablissements**](../Model/ReponseEtablissements.md)
 
 ### Authorization
 
@@ -146,7 +146,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findBySiret**
-> \Swagger\Client\Model\ReponseEtablissement findBySiret($siret, $date, $champs, $masquer_valeurs_nulles)
+> \Sirene\Client\Model\ReponseEtablissement findBySiret($siret, $date, $champs, $masquer_valeurs_nulles)
 
 Recherche d'un établissement par son numéro Siret
 
@@ -157,20 +157,20 @@ Recherche d'un établissement par son numéro Siret (14 chiffres)
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: ApiKeyAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
+$config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
+// $config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\EtablissementApi(
+$apiInstance = new Sirene\Client\Api\EtablissementApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$siret = new \Swagger\Client\Model\null(); //  | Identifiant de l'établissement (14 chiffres)
-$date = new \Swagger\Client\Model\null(); //  | Date à laquelle on veut obtenir les valeurs des données historisées
-$champs = new \Swagger\Client\Model\null(); //  | Liste des champs demandés, séparés par des virgules
-$masquer_valeurs_nulles = new \Swagger\Client\Model\null(); //  | Masque (true) ou affiche (false, par défaut) les attributs qui n'ont pas de valeur
+$siret = new \Sirene\Client\Model\null(); //  | Identifiant de l'établissement (14 chiffres)
+$date = new \Sirene\Client\Model\null(); //  | Date à laquelle on veut obtenir les valeurs des données historisées
+$champs = new \Sirene\Client\Model\null(); //  | Liste des champs demandés, séparés par des virgules
+$masquer_valeurs_nulles = new \Sirene\Client\Model\null(); //  | Masque (true) ou affiche (false, par défaut) les attributs qui n'ont pas de valeur
 
 try {
     $result = $apiInstance->findBySiret($siret, $date, $champs, $masquer_valeurs_nulles);
@@ -192,7 +192,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseEtablissement**](../Model/ReponseEtablissement.md)
+[**\Sirene\Client\Model\ReponseEtablissement**](../Model/ReponseEtablissement.md)
 
 ### Authorization
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **findLienSuccession**
-> \Swagger\Client\Model\ReponseLienSuccession findLienSuccession($q, $tri, $nombre, $debut, $curseur)
+> \Sirene\Client\Model\ReponseLienSuccession findLienSuccession($q, $tri, $nombre, $debut, $curseur)
 
 Recherche multicritère sur les liens de succession
 
@@ -215,21 +215,21 @@ Recherche multicritère sur les liens de succession
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: ApiKeyAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
+$config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
+// $config = Sirene\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\EtablissementApi(
+$apiInstance = new Sirene\Client\Api\EtablissementApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$q = new \Swagger\Client\Model\null(); //  | Contenu de la requête multicritères, voir la documentation pour plus de précisions
-$tri = new \Swagger\Client\Model\null(); //  | Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur
-$nombre = new \Swagger\Client\Model\null(); //  | Nombre d'éléments demandés dans la réponse, défaut 20
-$debut = new \Swagger\Client\Model\null(); //  | Rang du premier élément demandé dans la réponse, défaut 0
-$curseur = new \Swagger\Client\Model\null(); //  | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
+$q = new \Sirene\Client\Model\null(); //  | Contenu de la requête multicritères, voir la documentation pour plus de précisions
+$tri = new \Sirene\Client\Model\null(); //  | Permet de trier sur la variable siretEtablissementSuccesseur au lieu de siretEtablissementPredecesseur
+$nombre = new \Sirene\Client\Model\null(); //  | Nombre d'éléments demandés dans la réponse, défaut 20
+$debut = new \Sirene\Client\Model\null(); //  | Rang du premier élément demandé dans la réponse, défaut 0
+$curseur = new \Sirene\Client\Model\null(); //  | Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
 
 try {
     $result = $apiInstance->findLienSuccession($q, $tri, $nombre, $debut, $curseur);
@@ -252,7 +252,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ReponseLienSuccession**](../Model/ReponseLienSuccession.md)
+[**\Sirene\Client\Model\ReponseLienSuccession**](../Model/ReponseLienSuccession.md)
 
 ### Authorization
 

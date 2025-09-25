@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**header** | [**\Swagger\Client\Model\Header**](Header.md) |  | [optional] 
+**header** | [**\Sirene\Client\Model\Header**](Header.md) |  | [optional] 
 **unites_legales** | [****](.md) |  | [optional] 
 **facettes** | [****](.md) |  | [optional] 
 

@@ -15,9 +15,9 @@ Name | Type | Description | Notes
 **date_dernier_traitement_etablissement** | [****](.md) | Date de la dernière mise à jour effectuée au répertoire Sirene sur le Siret concerné (yyyy-MM-ddTHH:mm:ss.SSS) | [optional] 
 **etablissement_siege** | [****](.md) | Indicatrice précisant si le Siret est celui de l’établissement siège ou non | [optional] 
 **nombre_periodes_etablissement** | [****](.md) | Nombre de périodes dans la vie de l&#x27;établissement | [optional] 
-**unite_legale** | [**\Swagger\Client\Model\UniteLegaleEtablissement**](UniteLegaleEtablissement.md) |  | [optional] 
-**adresse_etablissement** | [**\Swagger\Client\Model\Adresse**](Adresse.md) |  | [optional] 
-**adresse2_etablissement** | [**\Swagger\Client\Model\AdresseComplementaire**](AdresseComplementaire.md) |  | [optional] 
+**unite_legale** | [**\Sirene\Client\Model\UniteLegaleEtablissement**](UniteLegaleEtablissement.md) |  | [optional] 
+**adresse_etablissement** | [**\Sirene\Client\Model\Adresse**](Adresse.md) |  | [optional] 
+**adresse2_etablissement** | [**\Sirene\Client\Model\AdresseComplementaire**](AdresseComplementaire.md) |  | [optional] 
 **periodes_etablissement** | [****](.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
