@@ -1,6 +1,6 @@
 <?php
 /**
- * ReponseEtablissementsTest
+ * UniteLegalePostMultiCriteresTest
  *
  * PHP version 5
  *
@@ -31,15 +31,15 @@ namespace Swagger\Client;
 use PHPUnit\Framework\TestCase;
 
 /**
- * ReponseEtablissementsTest Class Doc Comment
+ * UniteLegalePostMultiCriteresTest Class Doc Comment
  *
  * @category    Class
- * @description Objet renvoyé en cas de succès sur une requête demandant des établissements
+ * @description UniteLegalePostMultiCriteres
  * @package     Swagger\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class ReponseEtablissementsTest extends TestCase
+class UniteLegalePostMultiCriteresTest extends TestCase
 {
 
     /**
@@ -71,30 +71,72 @@ class ReponseEtablissementsTest extends TestCase
     }
 
     /**
-     * Test "ReponseEtablissements"
+     * Test "UniteLegalePostMultiCriteres"
      */
-    public function testReponseEtablissements()
+    public function testUniteLegalePostMultiCriteres()
     {
     }
 
     /**
-     * Test attribute "header"
+     * Test attribute "q"
      */
-    public function testPropertyHeader()
+    public function testPropertyQ()
     {
     }
 
     /**
-     * Test attribute "etablissements"
+     * Test attribute "date"
      */
-    public function testPropertyEtablissements()
+    public function testPropertyDate()
     {
     }
 
     /**
-     * Test attribute "facettes"
+     * Test attribute "champs"
      */
-    public function testPropertyFacettes()
+    public function testPropertyChamps()
+    {
+    }
+
+    /**
+     * Test attribute "nombre"
+     */
+    public function testPropertyNombre()
+    {
+    }
+
+    /**
+     * Test attribute "debut"
+     */
+    public function testPropertyDebut()
+    {
+    }
+
+    /**
+     * Test attribute "masquer_valeurs_nulles"
+     */
+    public function testPropertyMasquerValeursNulles()
+    {
+    }
+
+    /**
+     * Test attribute "tri"
+     */
+    public function testPropertyTri()
+    {
+    }
+
+    /**
+     * Test attribute "curseur"
+     */
+    public function testPropertyCurseur()
+    {
+    }
+
+    /**
+     * Test attribute "facette_champ"
+     */
+    public function testPropertyFacetteChamp()
     {
     }
 }

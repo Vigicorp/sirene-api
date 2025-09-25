@@ -1,6 +1,6 @@
 <?php
 /**
- * DatesMiseAJourDonnees
+ * UniteLegalePostMultiCriteres
  *
  * PHP version 5
  *
@@ -32,15 +32,14 @@ use \ArrayAccess;
 use \Sirene\Client\ObjectSerializer;
 
 /**
- * DatesMiseAJourDonnees Class Doc Comment
+ * UniteLegalePostMultiCriteres Class Doc Comment
  *
  * @category Class
- * @description Dates des dernières mises à jour de chaque collection de données
  * @package  Sirene\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
+class UniteLegalePostMultiCriteres implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -49,7 +48,7 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'DatesMiseAJourDonnees';
+    protected static $swaggerModelName = 'UniteLegalePostMultiCriteres';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -57,10 +56,15 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'collection' => '',
-        'date_derniere_mise_a_disposition' => '',
-        'date_dernier_traitement_maximum' => '',
-        'date_dernier_traitement_de_masse' => ''
+        'q' => '',
+        'date' => '',
+        'champs' => '',
+        'nombre' => '',
+        'debut' => '',
+        'masquer_valeurs_nulles' => '',
+        'tri' => '',
+        'curseur' => '',
+        'facette_champ' => ''
     ];
 
     /**
@@ -69,10 +73,15 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'collection' => null,
-        'date_derniere_mise_a_disposition' => 'date-time',
-        'date_dernier_traitement_maximum' => 'date-time',
-        'date_dernier_traitement_de_masse' => 'date-time'
+        'q' => null,
+        'date' => 'AAAA-MM-JJ',
+        'champs' => null,
+        'nombre' => 'int32',
+        'debut' => 'int32',
+        'masquer_valeurs_nulles' => null,
+        'tri' => null,
+        'curseur' => null,
+        'facette_champ' => null
     ];
 
     /**
@@ -102,10 +111,15 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'collection' => 'collection',
-        'date_derniere_mise_a_disposition' => 'dateDerniereMiseADisposition',
-        'date_dernier_traitement_maximum' => 'dateDernierTraitementMaximum',
-        'date_dernier_traitement_de_masse' => 'dateDernierTraitementDeMasse'
+        'q' => 'q',
+        'date' => 'date',
+        'champs' => 'champs',
+        'nombre' => 'nombre',
+        'debut' => 'debut',
+        'masquer_valeurs_nulles' => 'masquerValeursNulles',
+        'tri' => 'tri',
+        'curseur' => 'curseur',
+        'facette_champ' => 'facette.champ'
     ];
 
     /**
@@ -114,10 +128,15 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'collection' => 'setCollection',
-        'date_derniere_mise_a_disposition' => 'setDateDerniereMiseADisposition',
-        'date_dernier_traitement_maximum' => 'setDateDernierTraitementMaximum',
-        'date_dernier_traitement_de_masse' => 'setDateDernierTraitementDeMasse'
+        'q' => 'setQ',
+        'date' => 'setDate',
+        'champs' => 'setChamps',
+        'nombre' => 'setNombre',
+        'debut' => 'setDebut',
+        'masquer_valeurs_nulles' => 'setMasquerValeursNulles',
+        'tri' => 'setTri',
+        'curseur' => 'setCurseur',
+        'facette_champ' => 'setFacetteChamp'
     ];
 
     /**
@@ -126,10 +145,15 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'collection' => 'getCollection',
-        'date_derniere_mise_a_disposition' => 'getDateDerniereMiseADisposition',
-        'date_dernier_traitement_maximum' => 'getDateDernierTraitementMaximum',
-        'date_dernier_traitement_de_masse' => 'getDateDernierTraitementDeMasse'
+        'q' => 'getQ',
+        'date' => 'getDate',
+        'champs' => 'getChamps',
+        'nombre' => 'getNombre',
+        'debut' => 'getDebut',
+        'masquer_valeurs_nulles' => 'getMasquerValeursNulles',
+        'tri' => 'getTri',
+        'curseur' => 'getCurseur',
+        'facette_champ' => 'getFacetteChamp'
     ];
 
     /**
@@ -190,10 +214,15 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['collection'] = isset($data['collection']) ? $data['collection'] : null;
-        $this->container['date_derniere_mise_a_disposition'] = isset($data['date_derniere_mise_a_disposition']) ? $data['date_derniere_mise_a_disposition'] : null;
-        $this->container['date_dernier_traitement_maximum'] = isset($data['date_dernier_traitement_maximum']) ? $data['date_dernier_traitement_maximum'] : null;
-        $this->container['date_dernier_traitement_de_masse'] = isset($data['date_dernier_traitement_de_masse']) ? $data['date_dernier_traitement_de_masse'] : null;
+        $this->container['q'] = isset($data['q']) ? $data['q'] : null;
+        $this->container['date'] = isset($data['date']) ? $data['date'] : null;
+        $this->container['champs'] = isset($data['champs']) ? $data['champs'] : null;
+        $this->container['nombre'] = isset($data['nombre']) ? $data['nombre'] : null;
+        $this->container['debut'] = isset($data['debut']) ? $data['debut'] : null;
+        $this->container['masquer_valeurs_nulles'] = isset($data['masquer_valeurs_nulles']) ? $data['masquer_valeurs_nulles'] : null;
+        $this->container['tri'] = isset($data['tri']) ? $data['tri'] : null;
+        $this->container['curseur'] = isset($data['curseur']) ? $data['curseur'] : null;
+        $this->container['facette_champ'] = isset($data['facette_champ']) ? $data['facette_champ'] : null;
     }
 
     /**
@@ -221,97 +250,217 @@ class DatesMiseAJourDonnees implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets collection
+     * Gets q
      *
      * @return 
      */
-    public function getCollection()
+    public function getQ()
     {
-        return $this->container['collection'];
+        return $this->container['q'];
     }
 
     /**
-     * Sets collection
+     * Sets q
      *
-     * @param  $collection Nom de la collection
+     * @param  $q Contenu de la requête multicritères, voir la documentation pour plus de précisions
      *
      * @return $this
      */
-    public function setCollection($collection)
+    public function setQ($q)
     {
-        $this->container['collection'] = $collection;
+        $this->container['q'] = $q;
 
         return $this;
     }
 
     /**
-     * Gets date_derniere_mise_a_disposition
+     * Gets date
      *
      * @return 
      */
-    public function getDateDerniereMiseADisposition()
+    public function getDate()
     {
-        return $this->container['date_derniere_mise_a_disposition'];
+        return $this->container['date'];
     }
 
     /**
-     * Sets date_derniere_mise_a_disposition
+     * Sets date
      *
-     * @param  $date_derniere_mise_a_disposition Date et heure (yyyy-MM-ddTHH:mm:ss.SSS) de la dernière mise à disposition des données de la collection
+     * @param  $date Date à laquelle on veut obtenir les valeurs des données historisées
      *
      * @return $this
      */
-    public function setDateDerniereMiseADisposition($date_derniere_mise_a_disposition)
+    public function setDate($date)
     {
-        $this->container['date_derniere_mise_a_disposition'] = $date_derniere_mise_a_disposition;
+        $this->container['date'] = $date;
 
         return $this;
     }
 
     /**
-     * Gets date_dernier_traitement_maximum
+     * Gets champs
      *
      * @return 
      */
-    public function getDateDernierTraitementMaximum()
+    public function getChamps()
     {
-        return $this->container['date_dernier_traitement_maximum'];
+        return $this->container['champs'];
     }
 
     /**
-     * Sets date_dernier_traitement_maximum
+     * Sets champs
      *
-     * @param  $date_dernier_traitement_maximum Date (yyyy-MM-ddTHH:mm:ss.SSS) correspondant à la date de validité des données consultées
+     * @param  $champs Liste des champs demandés, séparés par des virgules
      *
      * @return $this
      */
-    public function setDateDernierTraitementMaximum($date_dernier_traitement_maximum)
+    public function setChamps($champs)
     {
-        $this->container['date_dernier_traitement_maximum'] = $date_dernier_traitement_maximum;
+        $this->container['champs'] = $champs;
 
         return $this;
     }
 
     /**
-     * Gets date_dernier_traitement_de_masse
+     * Gets nombre
      *
      * @return 
      */
-    public function getDateDernierTraitementDeMasse()
+    public function getNombre()
     {
-        return $this->container['date_dernier_traitement_de_masse'];
+        return $this->container['nombre'];
     }
 
     /**
-     * Sets date_dernier_traitement_de_masse
+     * Sets nombre
      *
-     * @param  $date_dernier_traitement_de_masse Date (yyyy-MM-ddTHH:mm:ss.SSS) du dernier traitement de masse sur la collection. À cette date plusieurs centaines de milliers de documents ont pu être mis à jour. Il est conseillé de traiter cette date d'une manière spécifique
+     * @param  $nombre Nombre d'éléments demandés dans la réponse, défaut 20
      *
      * @return $this
      */
-    public function setDateDernierTraitementDeMasse($date_dernier_traitement_de_masse)
+    public function setNombre($nombre)
     {
-        $this->container['date_dernier_traitement_de_masse'] = $date_dernier_traitement_de_masse;
+        $this->container['nombre'] = $nombre;
+
+        return $this;
+    }
+
+    /**
+     * Gets debut
+     *
+     * @return 
+     */
+    public function getDebut()
+    {
+        return $this->container['debut'];
+    }
+
+    /**
+     * Sets debut
+     *
+     * @param  $debut Rang du premier élément demandé dans la réponse, défaut 0
+     *
+     * @return $this
+     */
+    public function setDebut($debut)
+    {
+        $this->container['debut'] = $debut;
+
+        return $this;
+    }
+
+    /**
+     * Gets masquer_valeurs_nulles
+     *
+     * @return 
+     */
+    public function getMasquerValeursNulles()
+    {
+        return $this->container['masquer_valeurs_nulles'];
+    }
+
+    /**
+     * Sets masquer_valeurs_nulles
+     *
+     * @param  $masquer_valeurs_nulles Masque (true) ou affiche (false, par défaut) les attributs qui n'ont pas de valeur
+     *
+     * @return $this
+     */
+    public function setMasquerValeursNulles($masquer_valeurs_nulles)
+    {
+        $this->container['masquer_valeurs_nulles'] = $masquer_valeurs_nulles;
+
+        return $this;
+    }
+
+    /**
+     * Gets tri
+     *
+     * @return 
+     */
+    public function getTri()
+    {
+        return $this->container['tri'];
+    }
+
+    /**
+     * Sets tri
+     *
+     * @param  $tri Champs sur lesquels des tris seront effectués, séparés par des virgules. Tri sur siren par défaut
+     *
+     * @return $this
+     */
+    public function setTri($tri)
+    {
+        $this->container['tri'] = $tri;
+
+        return $this;
+    }
+
+    /**
+     * Gets curseur
+     *
+     * @return 
+     */
+    public function getCurseur()
+    {
+        return $this->container['curseur'];
+    }
+
+    /**
+     * Sets curseur
+     *
+     * @param  $curseur Paramètre utilisé pour la pagination profonde, voir la documentation pour plus de précisions
+     *
+     * @return $this
+     */
+    public function setCurseur($curseur)
+    {
+        $this->container['curseur'] = $curseur;
+
+        return $this;
+    }
+
+    /**
+     * Gets facette_champ
+     *
+     * @return 
+     */
+    public function getFacetteChamp()
+    {
+        return $this->container['facette_champ'];
+    }
+
+    /**
+     * Sets facette_champ
+     *
+     * @param  $facette_champ Liste des champs sur lesquels des comptages seront effectués, séparés par des virgules
+     *
+     * @return $this
+     */
+    public function setFacetteChamp($facette_champ)
+    {
+        $this->container['facette_champ'] = $facette_champ;
 
         return $this;
     }

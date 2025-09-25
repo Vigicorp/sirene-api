@@ -1,28 +1,30 @@
-# Sirene\Client\InformationsApi
+# Swagger\Client\InformationsApi
 
-All URIs are relative to *https://api.insee.fr/entreprises/sirene/V3.11*
+All URIs are relative to *https://api.insee.fr/api-sirene/3.11*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**informations**](InformationsApi.md#informations) | **GET** /informations | État du service, dates de mise à jour et numéro de version
 
-
 # **informations**
-> \Sirene\Client\Model\ReponseInformations informations()
+> \Swagger\Client\Model\ReponseInformations informations()
 
 État du service, dates de mise à jour et numéro de version
-
-
 
 ### Example
 ```php
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
+// Configure API key authorization: ApiKeyAuth
+$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('X-INSEE-Api-Key-Integration', 'YOUR_API_KEY');
+// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-INSEE-Api-Key-Integration', 'Bearer');
 
-$apiInstance = new Sirene\Client\Api\InformationsApi(
+$apiInstance = new Swagger\Client\Api\InformationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 
 try {
@@ -39,11 +41,11 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Sirene\Client\Model\ReponseInformations**](../Model/ReponseInformations.md)
+[**\Swagger\Client\Model\ReponseInformations**](../Model/ReponseInformations.md)
 
 ### Authorization
 
-No authorization required
+[ApiKeyAuth](../../README.md#ApiKeyAuth)
 
 ### HTTP request headers
 
@@ -51,3 +53,4 @@ No authorization required
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+

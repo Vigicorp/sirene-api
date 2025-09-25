@@ -1,6 +1,6 @@
 <?php
 /**
- * ReponseEtablissementsTest
+ * ReponseErreurTest
  *
  * PHP version 5
  *
@@ -31,15 +31,15 @@ namespace Swagger\Client;
 use PHPUnit\Framework\TestCase;
 
 /**
- * ReponseEtablissementsTest Class Doc Comment
+ * ReponseErreurTest Class Doc Comment
  *
  * @category    Class
- * @description Objet renvoyé en cas de succès sur une requête demandant des établissements
+ * @description ReponseErreur
  * @package     Swagger\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class ReponseEtablissementsTest extends TestCase
+class ReponseErreurTest extends TestCase
 {
 
     /**
@@ -71,9 +71,9 @@ class ReponseEtablissementsTest extends TestCase
     }
 
     /**
-     * Test "ReponseEtablissements"
+     * Test "ReponseErreur"
      */
-    public function testReponseEtablissements()
+    public function testReponseErreur()
     {
     }
 
@@ -81,20 +81,6 @@ class ReponseEtablissementsTest extends TestCase
      * Test attribute "header"
      */
     public function testPropertyHeader()
-    {
-    }
-
-    /**
-     * Test attribute "etablissements"
-     */
-    public function testPropertyEtablissements()
-    {
-    }
-
-    /**
-     * Test attribute "facettes"
-     */
-    public function testPropertyFacettes()
     {
     }
 }
